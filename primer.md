@@ -1,11 +1,16 @@
 <head>
-	<link ref='fonts/css/all.css' rel='stylesheet'>
+	<script src="https://kit.fontawesome.com/817966440d.js" crossorigin="anonymous"></script>
 </head>
 
-# <a id="primer"></a> A Primer of Colloquial Cornish
-<span style="font-size: 42px; color: Dodgerblue;">
-  <i class="fab fa-github"></i>
+<span style="font-size: 32px; color: Dodgerblue;">
+	<a href='bagoker.github.io'>
+	<i class="fab fa-github"></i> </a>
+	<i class="fas fa-chalkboard"></i>
+	<a href='https://bagoker.org'>
+	<i class="fas fa-globe"></i></a>
 </span>
+
+# <a id="primer"></a> A Primer of Colloquial Cornish
 
 # Table of Contents
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
