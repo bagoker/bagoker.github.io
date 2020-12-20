@@ -3,7 +3,7 @@
 # Table of Contents
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [<a id="primer"></a> A Primer of Colloquial Cornish](#a-idprimera-a-primer-of-colloquial-cornish)
+- [A Primer of Colloquial Cornish](#a-idprimera-a-primer-of-colloquial-cornish)
 - [Table of Contents](#table-of-contents)
 - [An introduction to Colloquial Cornish](#an-introduction-to-colloquial-cornish)
 - [Section A: Descriptions; close experimentation with features existent in colloquial form](#section-a-descriptions-close-experimentation-with-features-existent-in-colloquial-form)
@@ -66,7 +66,7 @@
 
 <!-- /TOC -->
 
-# An introduction to Colloquial Cornish
+# An introduction to Colloquial Cornish [(TOC)](#table-of-contents)
 Contrary to the motivations prevalent in the scholarship of much of Modern Cornish, Colloquial Cornish is not, in fact, intended to be a reinterpretation of the textual attestations of many periods of the Cornish language. Colloquial Cornish is a mask, and can be considered something of an extention to the varieties and dialects currently in existence. As a result, it is in fact the only variety of Cornish currently in existence not bound by its textual attestations, nor bound to a particular orthography. It is a set of grammar and and processes which can be applied to any dialect or standard which invariably results in either the simplification of standardised grammar, or the focus on already-present colloquialised aspects of grammar present within certain standards. As such, every present dialect, whether standard or not, can be made Colloquial, and Colloquial is as non-specific a term as is demanded by the sheer variety of the Cornish language.
 
 It is a necessity, to select an orthography for the purposes of compiling this primer. I will hereafter use Standard Written form to detail Collquial Cornish, and to provide an example of how a standard can be adapted in a colloquial fashion. It is of course worth mentioning, though, that users are not obliged to use SWF as the basis for their Colloquial writing or speech. In reading this primer and gaining a full understanding of the differences of Colloquial Cornish, any written form or spoken idiolect may be adapted thereto. I personally use an adapted form of Kernewek Kemmyn, which I will write out and explain in full at the end of this primer.
@@ -305,6 +305,8 @@ The lists below will detail prepositions that can be conjugated.
 
 ### §A.3.3 dann<sup>2</sup>
 
+The literary form of this preposition is **yn-dann**.
+
 |    Person     |           Preposition            |
 |:-------------:|:--------------------------------:|
 |      1sg      | dannov/dannam; danna vy; dann vy |
@@ -356,6 +358,8 @@ The lists below will detail prepositions that can be conjugated.
 |      3pl      |    dresta(ns); dresta i; dres i     |
 
 ### §A.3.7 gan
+
+The literary form of this preposition is **gans**.
 
 |    Person     |               Preposition                |
 |:-------------:|:----------------------------------------:|
