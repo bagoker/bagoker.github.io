@@ -3,9 +3,9 @@
 # Table of Contents
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [A Primer of Colloquial Cornish](#a-idprimera-a-primer-of-colloquial-cornish)
+- [<a id="primer"></a> A Primer of Colloquial Cornish](#a-idprimera-a-primer-of-colloquial-cornish)
 - [Table of Contents](#table-of-contents)
-- [An introduction to Colloquial Cornish](#an-introduction-to-colloquial-cornish)
+- [An introduction to Colloquial Cornish [(TOC)](#table-of-contents)](#an-introduction-to-colloquial-cornish-toctable-of-contents)
 - [Section A: Descriptions; close experimentation with features existent in colloquial form](#section-a-descriptions-close-experimentation-with-features-existent-in-colloquial-form)
 	- [§A.1 Consonant mutations](#a1-consonant-mutations)
 		- [§A.1.1 Table of mutations](#a11-table-of-mutations)
@@ -75,11 +75,11 @@ The aim of this primer and the features contained herein is the introduction of 
 
 I have separated this primer into multiple sections for ease of navigation. The first, **section A**, is concerned with presenting features which already exist in colloquial speech, as well as presenting minor variations on such features; **section B** presents radically new vocabulary and grammar thaty may not be present within the language already, though a posteriori features are prioritised; **section C** is devoted to discussions of orthography.
 
-# Section A: Descriptions; close experimentation with features existent in colloquial form
+# Section A: Descriptions; close experimentation with features existent in colloquial form [(TOC)](#table-of-contents)
 
-## §A.1 Consonant mutations
+## §A.1 Consonant mutations [(TOC)](#table-of-contents)
 
-### §A.1.1 Table of mutations
+### §A.1.1 Table of mutations [(TOC)](#table-of-contents)
 
 | 1: Unmutated<sup>1</sup> | 2: Soft<sup>1</sup> | 3: Breathed<sup>1</sup> | 4: Hard<sup>1</sup> |    5: Mixed<sup>1</sup>    |
 |:------------------------:|:-------------------:|:-----------------------:|:-------------------:|:--------------------------:|
@@ -101,7 +101,7 @@ I have separated this primer into multiple sections for ease of navigation. The 
 |     *f-*<sup>2</sup>     |        *v-*         |            —            |          —          |             —              |
 |     *s-*<sup>2</sup>     |        *s-*         |            —            |          —          |             —              |
 
-### §A.1.2 Notes on consonant mutation
+### §A.1.2 Notes on consonant mutation [(TOC)](#table-of-contents)
 
 1. Alternative, more scientific, names exist for each mutation; the soft may be called "lenition"; the breathed may be called "aspiration" or "spirantisation"; the hard may be called "provection".
 2. The final two entries, *f-* and *s-*, are entered in italics because their mutation is optional. This is found in the specification for Kernowak Standard, and so has been appropriated for use in Colloquial Cornish as well. It was defined in that standard as being optional in colloquial registers, so its inclusion here is appropriate.
@@ -109,15 +109,15 @@ I have separated this primer into multiple sections for ease of navigation. The 
 4. Point **3.** may extend to the isolated forms in mixed (5th) mutation of *g-*. Separate forms are given for this mutation because of the different functions which this mutation carries out. The desire for simplification has led to the mixed mutation being engineered to mimic lenition in most circumstances, such as after particles which demand the mixed mutation. In isolation, however, it is preferred *ga-*, *ge-*, *gi-* and *gy-* have those forms which set them apart quite distinctly from the second mutation, given the important grammatical implications which may be present if the two were to be confused. The forms of rounded back vowels preceded by *gr-* may either be preceded in mutation by *hr-* (to mimic the pattern of mixed mutation up until that point) or *wr-* (for a more euphonic pronunciation.)
 5. Because there is a lack of mutation present for many letters in the mixed mutation, and because of the importance of this mutation grammatically, some speakers may prefer to engineer further mutations in the mixed; a recommendation might be to apply aspirate mutation wherever it is possible (i.e. to *k-*, *p-* and *t-*) and soft mutation otherwise (i.e. to *ch-* and optionally *f-* and *s-*,) specifically to provide as much variety as possible to disambiguate this mutation from lenition, or even soft mutation across the board. Feel free, as speakers, to explore the possibilities here, and create whatever feels euphonic and distinctive enough for you!
 
-### §A.1.3 Caveat on consonant mutations
+### §A.1.3 Caveat on consonant mutations [(TOC)](#table-of-contents)
 
 It is important to mention that, while mutations are grammatically prescribed in Cornish, and are important to its grammar, some speakers may prefer to vary the precise mutations which they use in certain circumstances. Particularly with such complex and erratic mutations as the mixed, however, perhaps there will be speakers who might prefer to substitute this either with the simpler interpretation of mixed mutation outlined in the notes above, or perhaps even with the soft mutation! The choice is, as has been said, very much yours.
 
-## §A.2 Pronouns
+## §A.2 Pronouns [(TOC)](#table-of-contents)
 
 The system of pronouns has been changed quite radically, mainly to conform to the phenomenon of particle-dropping, which will be discussed in greater detail later. The result of this, in this primer, is that there is a new set of pronouns created. In addition, this primer makes use of the neologism *hynn* and terms related thereto, as the newly coined gender-neutral 3rd person singular pronoun.
 ***
-### §A.2.1 Personal independent pronouns
+### §A.2.1 Personal independent pronouns [(TOC)](#table-of-contents)
 
 |   Person and number    | Pronoun |
 |:----------------------:|:-------:|
@@ -132,7 +132,7 @@ The system of pronouns has been changed quite radically, mainly to conform to th
 
 These are the forms which are used independently of verbs or prepositions.
 
-#### §A.2.1.1 Notes on independent pronouns
+#### §A.2.1.1 Notes on independent pronouns [(TOC)](#table-of-contents)
 
 1. **My** and **ty** both can be respelt with final *-e*, as **me** and **te**.
 2. **Ty** can be respelt and pronounced with *ch-* in place of *t-*.
@@ -140,7 +140,7 @@ These are the forms which are used independently of verbs or prepositions.
 4. **Hynn** can be spelt with only a single final *-n*, as **hyn**.
 5. **I** can be rewritten as the result of reanalysis present in Late dialects, as **anji**, **ansi**, **ji**, **si**, or many variants thereof.
 ***
-### §A.2.2 Personal dependent pronouns
+### §A.2.2 Personal dependent pronouns [(TOC)](#table-of-contents)
 
 |   Person and number    | Pronoun |
 |:----------------------:|:-------:|
@@ -155,14 +155,14 @@ These are the forms which are used independently of verbs or prepositions.
 
 These are the forms which are used to indicate pronouns as objects, or to be used with verbs and prepositions.
 
-#### §A.2.2.1 Notes on dependent pronouns
+#### §A.2.2.1 Notes on dependent pronouns [(TOC)](#table-of-contents)
 
 1. As with their independent variants, **vy** and **jy** can be respelt with final *-e*, as **ve** and **je**.
 2. **Vy** has a major variant **ma**
 3. **Jy** has a major variant **sy**, which can be subject to rule **1.**, and therefore can be respelt as **se**.
 4. The rest of these pronouns are subject to the same rules as their independent counterparts.
 ***
-### §A.2.3 Verbal dependent pronouns
+### §A.2.3 Verbal dependent pronouns [(TOC)](#table-of-contents)
 
 |   Person and number    |     Pronoun      |
 |:----------------------:|:----------------:|
@@ -177,13 +177,13 @@ These are the forms which are used to indicate pronouns as objects, or to be use
 
 This is the set of pronouns which was mentioned in the introduction to this section. Although most of these are the same as their independent/dependent counterparts, the most divergent ones explicitly incorporate the verbal particle **a<sup>2</sup>**. That particle is otherwise implied in every other pronoun, because the rest all implicitly cause lenition as though their corresponding **a<sup>2</sup>** particle were included with them.
 
-#### §A.2.3.1 Notes on verbal dependent pronouns
+#### §A.2.3.1 Notes on verbal dependent pronouns [(TOC)](#table-of-contents)
 
 This set of pronouns is the newest introduction to the language, and the forms **ma<sup>2</sup>**, **ta<sup>2</sup>** and **va<sup>2</sup>** are a reflection of the pronunciation of these particles in quick colloquial speech. As a result, they somewhat reflect the practice of idiolect, and so can be subject to change based on personal preference. The most common variation may simply be to revert these pronouns to their independent forms, while maintaining the necessary mutation, giving **my<sup>2</sup>**, **ty<sup>2</sup>** and **e(v)<sup>2</sup>**.
 Because of these pronouns having subsumed the particle **a<sup>2</sup>**, they can *only* be used prior to conjugated verbs in the 3rd person singular in the appropriate tense, as is demanded by the combination (which this pronoun set effectively replaces) of \[personal pronoun] + **a<sup>2</sup>** in the literary language.
 Also as a result of subsuming the particle **a<sup>2</sup>**, most of these particles can be combined with infixed pronouns to indicate the direct object of the verb in question.
 ***
-### §A.2.4 Possessive adjectives
+### §A.2.4 Possessive adjectives [(TOC)](#table-of-contents)
 
 |   Person and number    |     Pronoun     |
 |:----------------------:|:---------------:|
@@ -198,7 +198,7 @@ Also as a result of subsuming the particle **a<sup>2</sup>**, most of these part
 
 This set of pronouns is the means of describing possession of an item, such as "my", "your", etc.
 
-#### §A.2.4.1 Notes on possessive adjectives
+#### §A.2.4.1 Notes on possessive adjectives [(TOC)](#table-of-contents)
 
 Possessive adjectives are also subject to considerable variation.
 
@@ -210,7 +210,7 @@ Possessive adjectives are also subject to considerable variation.
 6. **Y<sup>2</sup>** and **hy<sup>3</sup>** may both reduce to simply **y<sup>2</sup>**/**y<sup>3</sup>**; this may also be subject to rule **5.** which may render each adjective instead as **e<sup>2</sup>**/**e<sup>3</sup>**.
 7. **Agan**, **agas** and **aga<sup>3</sup>** may all drop their initial *a-*, giving **gan**—**gas**—**ga<sup>3</sup>**.
 
-#### §A.2.4.2 Usage of possessive adjectives
+#### §A.2.4.2 Usage of possessive adjectives [(TOC)](#table-of-contents)
 
 There is also in fact some variation on how, and even whether, possessive adjectives are used within the language. This can be described across several stages, from most standard/formal to most divergent/informal:
 
@@ -219,9 +219,9 @@ There is also in fact some variation on how, and even whether, possessive adject
 3. No possessive adjective is used, but the relevant mutation is applied to the noun and personal dependent pronoun compulsorily placed after the noun.
 4. Finally, most informally, no possessive adjective is used, no mutation is applied to the noun, and the personal dependent pronoun is compulsorily placed after the noun.
 ***
-### §A.2.5 Infixed direct and possessive pronouns
+### §A.2.5 Infixed direct and possessive pronouns [(TOC)](#table-of-contents)
 
-#### §A.2.5.1 Infixed direct pronouns
+#### §A.2.5.1 Infixed direct pronouns [(TOC)](#table-of-contents)
 
 This is the pronoun set which is used to indicate the direct object of a verb.
 
@@ -238,7 +238,7 @@ This is the pronoun set which is used to indicate the direct object of a verb.
 
 These are fairly straightforward, and remain the same as in the standard language for the most part. **'gan** and **'gas** may vary to **'n** and **'s**, though this might cause confusion with other forms. In such cases, it might be good practice to insert the relevant direct dependent pronoun after the verb to disambiguate the infixed form.
 ***
-#### §A.2.5.2 Infixed possessive pronouns
+#### §A.2.5.2 Infixed possessive pronouns [(TOC)](#table-of-contents)
 
 This is the pronoun set which is used to contract a possessive adjective to attach it to a particle or verbal dependent pronoun.
 
@@ -256,7 +256,7 @@ This is the pronoun set which is used to contract a possessive adjective to atta
 These forms are almost the same as the direct pronouns, apart from where most of the 3rd person forms become more representative of their respective possessive adjectives. The two forms **'m** and **'gh** with mutations in brackets indicate that mutation is completely optional after these.
 ***
 
-## §A.3 Prepositions
+## §A.3 Prepositions [(TOC)](#table-of-contents)
 
 Prepositions are used in four various levels of formality. The basis of prepositions in the colloquial language is the concept of *analytic* prepositions. These are forms of the prepositions which are reduced from the way in which they are formed in the literary language. This usually involves some pronunciation-based alterations of the pronunciations of these prepositions within the literary language in colloquial speech. These are to be presented as part of the standard practice here, though "standard practice" as a whole outlines a large system of variation encompassing different registers of speech. These are, in order of most to least formal, using *gans* as an example:
 
@@ -268,7 +268,7 @@ Prepositions are used in four various levels of formality. The basis of preposit
 The most common prepositions will be presented below with their respective conjugations, and the list above will be used as the basis for the system of classification below. Where some prepositions only have three forms, there is no distinction between the full and reduced analytic preposition. Where some prepositions only have two forms, there is no analytic pronoun at all.
 Analytic prepositions are **only used with personal pronoun subjects**.
 
-### §A.3.1 Common preposition endings
+### §A.3.1 Common preposition endings [(TOC)](#table-of-contents)
 
 |    Person     |        Preposition         |
 |:-------------:|:--------------------------:|
@@ -441,13 +441,13 @@ This conjugation can also be used for the prepositions **dyworth**, **a-dhyworth
 |      2pl      | ynnow(gh); ynna hwi; yn hwi |
 |      3pl      |   ynna(ns); ynna i; yn i    |
 
-## §A.4 Verbs and conjugation
+## §A.4 Verbs and conjugation [(TOC)](#table-of-contents)
 
 Colloquial Cornish specifies systems of tense which are relatively close to the literary language. Four tenses are specified: the present, preterite, imperfect, and conditional/pluperfect, and two moods: the indicative and the subjunctive, positive and negative polarity, and a dedicated form for the interrogative mood. The usage of the subjunctive is limited to only one tense, however, following conventions established in such dialects as Kernowak Standard. Verbs also inflect according to polarity (positive — negative).
 
 ***
 
-### §A.4.1 Tense
+### §A.4.1 Tense [(TOC)](#table-of-contents)
 
 The four tenses in Cornish are used very regularly. The usual endings are:
 
@@ -460,7 +460,7 @@ The four tenses in Cornish are used very regularly. The usual endings are:
 |  2nd plural  |    -owgh    |    -ewgh    |    -sowgh     |    -sewgh     |
 |  3rd plural  | -on / -onsi | -en / -ensi | -son / -sonsi | -sen / -sensi |
 
-#### §A.4.1.1 Present tense
+#### §A.4.1.1 Present tense [(TOC)](#table-of-contents)
 
 1. **-av** can reduce to **-a**, with or without a trailing apostrophe to indicate the elided *-v*. In such cases, it would be best to reduplicate a direct dependent pronoun
 2. **-ydh** can reduce to **-i**, with or without a trailing apostrophe to indicate the elided *-dh*. In such cases, it would be advisable, but not necessary, to reduplicate a direct dependent pronoun
@@ -469,26 +469,26 @@ The four tenses in Cornish are used very regularly. The usual endings are:
 5. **-owgh** may either reduce to **-ow**, with or without a trailing apostrophe to indicate the elided *-gh*; or it can become **-a** with a trailing apostrophe, an optional space, and obligatory direct dependent pronoun (thus giving **-a' hwi** or **-a'hwi**)
 6. **-on** is a form best taken so as not to include the pronoun after the verbal ending. Both the vowels in this ending can reduce to **-a-** when the endings are unstressed
 
-#### §A.4.1.2 Imperfect tense
+#### §A.4.1.2 Imperfect tense [(TOC)](#table-of-contents)
 
 1. The vowel **-e-** in all of these endings can reduce to **-a-** in an unstressed position
 2. It is best practice not to reduce these endings, so as not to cause excessive confusion with the present, but they can be reduced following the rules of the present if so desired
 
-#### §A.4.1.3 Preterite tense
+#### §A.4.1.3 Preterite tense [(TOC)](#table-of-contents)
 
 1. **-is** can reduce to **-ys**
 2. **-as** replaces all instances of **-is** in the 3rd person singular in the literary language; this is consistent with features present in some registers of the literary language
 3. **-sowgh** can reduce to **-sow**, with or without a trailing apostrophe to indicate the elision of *-gh*
 4. **-syn** and **-sowgh** can both reduce to **-sa**, with their respective direct dependent pronouns obligatorily reduplicated
 
-#### §A.4.1.4 Conditional/pluperfect tense
+#### §A.4.1.4 Conditional/pluperfect tense [(TOC)](#table-of-contents)
 
 1. The vowel **-e-** in all of these endings can reduce to **-a-** in an unstressed position
 2. It is best practice not to reduce these endings, so as not to cause excessive confusion with the preterite, but they can be reduced following the rules of the preterite and present (as applicable) if so desired
 
 ***
 
-### §A.4.2 Subjunctive mood
+### §A.4.2 Subjunctive mood [(TOC)](#table-of-contents)
 
 The endings above correspond to the **indicative** mood. Below is the table for the **subjunctive**:
 
@@ -506,16 +506,16 @@ The difference in the two moods is the fact that the ablaut in the final consona
 
 ***
 
-### §A.4.3 Colloquial Cornish and verbal particles
+### §A.4.3 Colloquial Cornish and verbal particles [(TOC)](#table-of-contents)
 
 Literary Cornish possesses two very important verbal particles: **y<sup>5</sup>** and **a<sup>2</sup>**. These are used to indicate the precise nature and position of a verb within a sentence. Colloquial Cornish follows attested behaviours of certain Literary varieties, and extends these, so that neither of these particles is used in the majority of situations. However, verbs will retain the mutations caused by these particles, thereby helping at least in part to disambiguate the situations in which these verbs occur.
 Cornish verbs occur within two major types of environment: the verbal and the nominal. Verbal environments are head-initial, whereas nominal environments are not; therefore verbal environments will usually begin with a verbal particle and a verb; nominal environments will usually begin with either the subject or the object of the verb.
 ***
-### §A.4.4 Indicative verbs
+### §A.4.4 Indicative verbs [(TOC)](#table-of-contents)
 
 Indicative verbs are marked with **y<sup>5</sup>** in verbal environments, and **a<sup>2</sup>**.
 
-#### §A.4.3.1 Indicative verbs in verbal environments
+#### §A.4.3.1 Indicative verbs in verbal environments [(TOC)](#table-of-contents)
 
 Being preceded by **y<sup>5</sup>** in the literary language, indicative verbs in verbal environments are marked with a dangling 5th (mixed) mutation preceding the verb, e.g.
 
@@ -524,7 +524,7 @@ Being preceded by **y<sup>5</sup>** in the literary language, indicative verbs i
 > <sup>5</sup>Talla'n hwarvos dh'eth eur
 > *"The event starts at eight o'clock"*
 
-#### §A.4.3.2 Indicative verbs in nominal environments
+#### §A.4.3.2 Indicative verbs in nominal environments [(TOC)](#table-of-contents)
 
 Being preceded by **a<sup>2</sup>** in the literary language, indicative verbs in nominal environments are marked with a dangling 2nd (soft) mutation preceding the verb, e.g.
 
@@ -535,7 +535,7 @@ Being preceded by **a<sup>2</sup>** in the literary language, indicative verbs i
 
 ***
 
-### §A.4.5 Interrogative verbs
+### §A.4.5 Interrogative verbs [(TOC)](#table-of-contents)
 
 Verbs can be specially inflected to indicate the verb being posed as a question, rather than a statement. Interrogative verbs are usually found in verbal environments, meaning they usually start phrases or sentences. They are usually preceded in the literary language by the particle **a<sup>2</sup>**, so they are marked here with a dangling 2nd (soft) mutation preceding the verb, e.g.
 
@@ -546,11 +546,11 @@ Verbs can be specially inflected to indicate the verb being posed as a question,
 
 ***
 
-### §A.4.6 Negative verbs
+### §A.4.6 Negative verbs [(TOC)](#table-of-contents)
 
 Verbs are inflected with the negative particle **na<sup>2</sup>**, which shortens to **n'** before verbs beginning with a vowel. Parts of *bos* and *mos* that begin with a vowel take the particle **nag** instead.
 
-### §A.4.7 Interrogative-negative verbs
+### §A.4.7 Interrogative-negative verbs [(TOC)](#table-of-contents)
 
 These verbs translate as a negative within a question, as in e.g. "Do you not eat?"
 This is achieved by using the negative particle described above and ending the question with a question mark in writing, or with questioning intonation in speech;
@@ -560,18 +560,18 @@ Alternatively, speakers may use the particle **ny<sup>2</sup>** appropriated fro
 > Ny weli'n den?
 > *"Do you not see the man?"*
 
-# Section B: New and experimental forms
+# Section B: New and experimental forms [(TOC)](#table-of-contents)
 hwer my dhe \[verb] — i usually...
 hwer dhe vy \[verb] — same but passive sense
 
-## §B.1 Consonant mutations
+## §B.1 Consonant mutations [(TOC)](#table-of-contents)
 
-### §B.1.1 Alternative notation
+### §B.1.1 Alternative notation [(TOC)](#table-of-contents)
 
 Because of sentiments from learners of the language regarding the difficulty in discerning between similarly-formed mutations of vastly different letters, a system of notating mutations in an alternative fashion is being proposed here. It is complex, and potentially even impractical for many, however it may find good use by some in an educational context, which I personally also believe is the best application for it. Another drawback is that it requires theuse of a custom keyboard layout, though several have been produced already; one a native macOS keyboard layout and another a downloadable layout for Keyman Desktop, which is available on all major operating systems.
 All of these are formed by using the overdot&nbsp;(̇ )&nbsp;symbol. It is for this reason that a custom keyboard is necessary, but one can easily be provided, as mentioned.
 
-#### §B.1.1.1 Lenition
+#### §B.1.1.1 Lenition [(TOC)](#table-of-contents)
 
 This is the simplest notation, in which words are written with their radicals, with an overdot written above the radical. This results in the following:
 
@@ -590,7 +590,7 @@ This is the simplest notation, in which words are written with their radicals, w
 
 Note carefully that in the case of *ch-* the overdot is written above *c*, so as to avoid confusion with the notation of the following mutation, spirantisation.
 
-#### §B.1.1.2 Spirantisation
+#### §B.1.1.2 Spirantisation [(TOC)](#table-of-contents)
 
 This notation is quite simple as well, and mostly involves the letter *ḣ* (*h* with overdot.)
 
@@ -602,7 +602,7 @@ This notation is quite simple as well, and mostly involves the letter *ḣ* (*h*
 
 This only involves the use of the modified letter *ḣ* after the relevant radical. The notation above has been suggested because it is the simplest in terms of its production, though please experiment and make improvements on it!
 
-#### §B.1.1.3 Provection and mixed mutation
+#### §B.1.1.3 Provection and mixed mutation [(TOC)](#table-of-contents)
 
 This and mixed mutation are notated in a somewhat more complex manner. They involve placing the overdot on the initial letter of the sound in question, and writing the mutated letter thereafter:
 
@@ -628,13 +628,13 @@ This and mixed mutation are notated in a somewhat more complex manner. They invo
 
 Although these may seem unwieldy to some users, the central tenet of this primer must be mentioned again: *experiment!* If there is a notation which seems to be more practical and clear, please make the suggestion! The central qualities of the decisions made and presented thus far in this primer have been consistency, practicality and clarity, so keep this in mind for yourselves too.
 
-## §B.3 Prepositions
+## §B.3 Prepositions [(TOC)](#table-of-contents)
 
-### §B.3.1 am
+### §B.3.1 am [(TOC)](#table-of-contents)
 
 This preposition does not already exist independently in Cornish, though it does in Welsh. However, the element which is the exact same source for the Welsh preposition *am* does, in fact, exist in Cornish too, as the prefix *am-* in the word *ambos*. This is the basis for the decision to introduce this preposition, with an equivalent meaning of "about", "concerning", "around", all in a metaphorical sense. Since there is no basis in Cornish to introduce conjugations, however, this primer will not do so, but keen users might wish to attempt it!
 
-### §B.3.2 orth
+### §B.3.2 orth [(TOC)](#table-of-contents)
 
 **Orth** may vary majorly to **at** in all positions, and may be conjugated as below:
 
@@ -649,12 +649,12 @@ This preposition does not already exist independently in Cornish, though it does
 |      2pl      | atow(gh); ata hwi; at hwi |
 |      3pl      |   ata(ns); ata i; at i    |
 
-### §B.3.3 war
+### §B.3.3 war [(TOC)](#table-of-contents)
 
 **War** may vary majorly to **oar** in all positions, but is conjugated exactly the same as war.
 
-### §B.3.4 yn
+### §B.3.4 yn [(TOC)](#table-of-contents)
 
 **Yn** may vary majorly to **et** before all vowels as opposed to only some, and will only be used as such in its unconjugated form.
 
-# Section C: Orthography
+# Section C: Orthography [(TOC)](#table-of-contents)
