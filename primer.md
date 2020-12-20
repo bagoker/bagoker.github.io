@@ -1,4 +1,70 @@
+# <a id="primer"></a> A Primer of Colloquial Cornish
+
 # Table of Contents
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [<a id="primer"></a> A Primer of Colloquial Cornish](#a-idprimera-a-primer-of-colloquial-cornish)
+- [Table of Contents](#table-of-contents)
+- [An introduction to Colloquial Cornish](#an-introduction-to-colloquial-cornish)
+- [Section A: Descriptions; close experimentation with features existent in colloquial form](#section-a-descriptions-close-experimentation-with-features-existent-in-colloquial-form)
+	- [§A.1 Consonant mutations](#a1-consonant-mutations)
+		- [§A.1.1 Table of mutations](#a11-table-of-mutations)
+		- [§A.1.2 Notes on consonant mutation](#a12-notes-on-consonant-mutation)
+		- [§A.1.3 Caveat on consonant mutations](#a13-caveat-on-consonant-mutations)
+	- [§A.2 Pronouns](#a2-pronouns)
+		- [§A.2.1 Personal independent pronouns](#a21-personal-independent-pronouns)
+			- [§A.2.1.1 Notes on independent pronouns](#a211-notes-on-independent-pronouns)
+		- [§A.2.2 Personal dependent pronouns](#a22-personal-dependent-pronouns)
+			- [§A.2.2.1 Notes on dependent pronouns](#a221-notes-on-dependent-pronouns)
+		- [§A.2.3 Verbal dependent pronouns](#a23-verbal-dependent-pronouns)
+			- [§A.2.3.1 Notes on verbal dependent pronouns](#a231-notes-on-verbal-dependent-pronouns)
+		- [§A.2.4 Possessive adjectives](#a24-possessive-adjectives)
+			- [§A.2.4.1 Notes on possessive adjectives](#a241-notes-on-possessive-adjectives)
+			- [§A.2.4.2 Usage of possessive adjectives](#a242-usage-of-possessive-adjectives)
+		- [§A.2.5 Infixed direct and possessive pronouns](#a25-infixed-direct-and-possessive-pronouns)
+			- [§A.2.5.1 Infixed direct pronouns](#a251-infixed-direct-pronouns)
+			- [§A.2.5.2 Infixed possessive pronouns](#a252-infixed-possessive-pronouns)
+	- [§A.3 Prepositions](#a3-prepositions)
+		- [§A.3.1 Common preposition endings](#a31-common-preposition-endings)
+		- [§A.3.2 a<sup>2</sup>](#a32-asup2sup)
+		- [§A.3.3 dann<sup>2</sup>](#a33-dannsup2sup)
+		- [§A.3.4 dhe<sup>2</sup>](#a34-dhesup2sup)
+		- [§A.3.5 dre<sup>2</sup>](#a35-dresup2sup)
+		- [§A.3.6 dres](#a36-dres)
+		- [§A.3.7 gan](#a37-gan)
+		- [§A.3.8 heb](#a38-heb)
+		- [§A.3.9 ort(h)](#a39-orth)
+		- [§A.3.10 rag](#a310-rag)
+		- [§A.3.11 war<sup>2</sup>](#a311-warsup2sup)
+		- [§A.3.12 yn](#a312-yn)
+	- [§A.4 Verbs and conjugation](#a4-verbs-and-conjugation)
+		- [§A.4.1 Tense](#a41-tense)
+			- [§A.4.1.1 Present tense](#a411-present-tense)
+			- [§A.4.1.2 Imperfect tense](#a412-imperfect-tense)
+			- [§A.4.1.3 Preterite tense](#a413-preterite-tense)
+			- [§A.4.1.4 Conditional/pluperfect tense](#a414-conditionalpluperfect-tense)
+		- [§A.4.2 Subjunctive mood](#a42-subjunctive-mood)
+		- [§A.4.3 Colloquial Cornish and verbal particles](#a43-colloquial-cornish-and-verbal-particles)
+		- [§A.4.4 Indicative verbs](#a44-indicative-verbs)
+			- [§A.4.3.1 Indicative verbs in verbal environments](#a431-indicative-verbs-in-verbal-environments)
+			- [§A.4.3.2 Indicative verbs in nominal environments](#a432-indicative-verbs-in-nominal-environments)
+		- [§A.4.5 Interrogative verbs](#a45-interrogative-verbs)
+		- [§A.4.6 Negative verbs](#a46-negative-verbs)
+		- [§A.4.7 Interrogative-negative verbs](#a47-interrogative-negative-verbs)
+- [Section B: New and experimental forms](#section-b-new-and-experimental-forms)
+	- [§B.1 Consonant mutations](#b1-consonant-mutations)
+		- [§B.1.1 Alternative notation](#b11-alternative-notation)
+			- [§B.1.1.1 Lenition](#b111-lenition)
+			- [§B.1.1.2 Spirantisation](#b112-spirantisation)
+			- [§B.1.1.3 Provection and mixed mutation](#b113-provection-and-mixed-mutation)
+	- [§B.3 Prepositions](#b3-prepositions)
+		- [§B.3.1 am](#b31-am)
+		- [§B.3.2 orth](#b32-orth)
+		- [§B.3.3 war](#b33-war)
+		- [§B.3.4 yn](#b34-yn)
+- [Section C: Orthography](#section-c-orthography)
+
+<!-- /TOC -->
 
 # An introduction to Colloquial Cornish
 Contrary to the motivations prevalent in the scholarship of much of Modern Cornish, Colloquial Cornish is not, in fact, intended to be a reinterpretation of the textual attestations of many periods of the Cornish language. Colloquial Cornish is a mask, and can be considered something of an extention to the varieties and dialects currently in existence. As a result, it is in fact the only variety of Cornish currently in existence not bound by its textual attestations, nor bound to a particular orthography. It is a set of grammar and and processes which can be applied to any dialect or standard which invariably results in either the simplification of standardised grammar, or the focus on already-present colloquialised aspects of grammar present within certain standards. As such, every present dialect, whether standard or not, can be made Colloquial, and Colloquial is as non-specific a term as is demanded by the sheer variety of the Cornish language.
@@ -222,7 +288,7 @@ The figures in brackets indicate particularly common endings within the paradigm
 3. **-owgh** can reduce to simply **-ow**, with or without a trailing apostrophe at the end (as **-ow'**) to indicate elision of the full ending
 4. **-ans** is the form to be preferred when there is no reduplicated pronoun after the preposition
 
-The lists below will detail prepositions that can be
+The lists below will detail prepositions that can be conjugated.
 
 ### §A.3.2 a<sup>2</sup>
 
