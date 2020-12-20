@@ -1,0 +1,1856 @@
+<!DOCTYPE html>  
+<html lang="GB">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>primer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style id="mkstylesheet">
+#wrapper{color:#24292e;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';margin:0;text-size-adjust:100%}#wrapper aside,#wrapper article,#wrapper details,#wrapper figcaption,#wrapper figure,#wrapper footer,#wrapper header,#wrapper hgroup,#wrapper main,#wrapper menu,#wrapper nav,#wrapper section,#wrapper summary{display:block}#wrapper audio,#wrapper canvas,#wrapper progress,#wrapper video{display:inline-block;vertical-align:baseline}#wrapper audio:not([controls]){display:none;height:0}#wrapper [hidden],#wrapper template{display:none}#wrapper a{background-color:transparent}#wrapper a:active,#wrapper a:hover{outline:0}#wrapper abbr[title]{border-bottom:1px dotted}#wrapper b,#wrapper strong{font-weight:bold}#wrapper dfn{font-style:italic}#wrapper mark{background:#ff0;color:#000}#wrapper small{font-size:80%}#wrapper sub,#wrapper sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}#wrapper sup{top:-.5em}#wrapper sub{bottom:-.25em}#wrapper img{border:0}#wrapper svg:not(:root){overflow:hidden}#wrapper figure{margin:1em 40px}#wrapper hr{box-sizing:content-box;height:0}#wrapper pre{overflow:auto}#wrapper code,#wrapper kbd,#wrapper pre,#wrapper samp{font-family:monospace, monospace;font-size:1em}#wrapper button,#wrapper input,#wrapper optgroup,#wrapper select,#wrapper textarea{color:inherit;font:inherit;margin:0}#wrapper button{overflow:visible}#wrapper button,#wrapper select{text-transform:none}#wrapper button,#wrapper input[type='button'],#wrapper input[type='reset'],#wrapper input[type='submit']{-webkit-appearance:button;cursor:pointer}#wrapper button[disabled]{cursor:default}#wrapper button::-moz-focus-inner,#wrapper input::-moz-focus-inner{border:0;padding:0}#wrapper input{line-height:normal}#wrapper input[type='checkbox'],#wrapper input[type='radio']{box-sizing:border-box;padding:0}#wrapper input[type='number']::-webkit-inner-spin-button,#wrapper input[type='number']::-webkit-outer-spin-button{height:auto}#wrapper input[type='search']{-webkit-appearance:textfield;box-sizing:content-box}#wrapper input[type='search']::-webkit-search-cancel-button,#wrapper input[type='search']::-webkit-search-decoration{-webkit-appearance:none}#wrapper fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}#wrapper legend{border:0;padding:0}#wrapper textarea{overflow:auto}#wrapper optgroup{font-weight:bold}#wrapper table{border-collapse:collapse;border-spacing:0}#wrapper *{box-sizing:border-box}#wrapper input,#wrapper select,#wrapper textarea,#wrapper button{font:14px/21px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'}#wrapper body{font:14px/21px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';color:#333;background-color:#fff}#wrapper a{color:#4078c0;text-decoration:none}#wrapper a:hover,#wrapper a:active{text-decoration:underline}#wrapper hr,#wrapper .rule{background:transparent;border:0;border-bottom:1px solid #ddd;height:0;margin:15px 0;overflow:hidden}#wrapper hr:before,#wrapper .rule:before{content:'';display:table}#wrapper hr:after,#wrapper .rule:after{clear:both;content:'';display:table}#wrapper h1,#wrapper h2,#wrapper h3,#wrapper h4,#wrapper h5,#wrapper h6{font-weight:600;line-height:1.1;margin:24px 0 16px;padding:0}#wrapper h1,#wrapper h2{border-bottom:1px solid #eaecef}#wrapper h1{font-size:32px;line-height:40px;margin:0 0 16px;padding:0 0 9.600000381469727px}#wrapper h2{font-size:24px;line-height:30px;padding:0 0 7.199999809265137px}#wrapper h3{font-size:20px;line-height:25px}#wrapper h4{font-size:16px;line-height:20px;margin:24px 0 16px;padding:0}#wrapper h5{font-size:14px;line-height:17px}#wrapper h6{font-size:13.600000381469727px;line-height:17px}#wrapper small{font-size:90%}#wrapper blockquote{margin:0}#wrapper ol ol,#wrapper ul ol{list-style-type:lower-roman}#wrapper ul ul ol,#wrapper ul ol ol,#wrapper ol ul ol,#wrapper ol ol ol{list-style-type:lower-alpha}#wrapper dd{margin-left:0}#wrapper tt,#wrapper code,#wrapper pre{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace}#wrapper pre{background-color:#f6f8fa;border-radius:3px;font-size:85%;line-height:1.45;overflow:auto;padding:16px;margin-top:0;margin-bottom:0}#wrapper{-webkit-font-smoothing:antialiased;background:#fff;border:solid 1px #dddddd !important;border-radius:3px;color:#333;font:14px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';line-height:1.6;padding:3px}p{margin:1em 0}a{color:#4183c4;text-decoration:none}#wrapper{background-color:#fff;font-size:16px;line-height:1.6;margin:15px;padding:30px}#wrapper>*:first-child{margin-top:0 !important}#wrapper>*:last-child{margin-bottom:0 !important}@media screen{#wrapper{border:solid 1px #ddd}}p,blockquote,ul,ol,dl,table,pre{margin-bottom:16px}hr{height:4px;padding:0;margin:16px 0;background-color:#e7e7e7;border:0 none}ul,ol{padding-left:2.8rem}ul.no-list,ol.no-list{padding:0;list-style-type:none}ul ul,ul ol{margin-top:0;margin-bottom:0}ol ol,ol ul{margin-top:0;margin-bottom:0}li>p{margin-bottom:0}li p+p{margin-top:16px}dl{padding:0}dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}dl dd{padding:0 16px;margin-bottom:16px}blockquote{padding:0 15px;margin-left:0;color:#777;border-left:4px solid #ddd}blockquote>:first-child{margin-top:0}blockquote>:last-child{margin-bottom:0}table{display:block;width:100%;overflow:auto}table th{font-weight:700;padding:6px 13px;border:1px solid #ddd}table td{padding:6px 13px;border:1px solid #ddd}table tr{background-color:#fff;border-top:1px solid #ccc}table tr:nth-child(2n){background-color:#f8f8f8}img{max-width:100%;-moz-box-sizing:border-box;box-sizing:border-box}span.frame{display:block;overflow:hidden}span.frame>span{display:block;float:left;width:auto;padding:7px;margin:13px 0 0;overflow:hidden;border:1px solid #ddd}span.frame span img{display:block;float:left}span.frame span span{display:block;padding:5px 0 0;clear:both;color:#333}span.align-center{display:block;overflow:hidden;clear:both}span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}span.align-center span img{margin:0 auto;text-align:center}span.align-right{display:block;overflow:hidden;clear:both}span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}span.align-right span img{margin:0;text-align:right}span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}span.float-left span{margin:13px 0 0}span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}code,tt{background-color:rgba(0,0,0,0.04);border-radius:3px;font-size:85%;margin:0;padding-bottom:.2em;padding-top:.2em;padding:0}code::before,code::after{content:'\00a0';letter-spacing:-.2em}tt:before,tt:after{content:'\00a0';letter-spacing:-.2em}code br,tt br{display:none}del code{text-decoration:inherit;vertical-align:text-top}pre>code{padding:0;margin:0;font-size:100%;white-space:pre;background:transparent;border:0}.highlight{margin-bottom:16px}.highlight pre{padding:16px;margin-bottom:0;overflow:auto;font-size:85%;line-height:1.45;background-color:#f7f7f7;border-radius:3px}pre{padding:16px;margin-bottom:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f7f7f7;border-radius:3px;word-wrap:normal}pre code,pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}pre code:before,pre code:after{content:normal}pre tt:before,pre tt:after{content:normal}.poetry pre{font-family:Georgia, Garamond, serif !important;font-style:italic;font-size:110% !important;line-height:1.6em;display:block;margin-left:1em}.poetry pre code{font-family:Georgia, Garamond, serif !important;word-break:break-all;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;white-space:pre-wrap}sup,sub,a.footnote{font-size:1.4ex;height:0;line-height:1;vertical-align:super;position:relative}sub{vertical-align:sub;top:-1px}@media print{body{background:#fff}img,table,figure{page-break-inside:avoid}#wrapper{background:#fff;border:none !important;font-size:12px}pre code{overflow:visible}}@media screen{body.inverted{border-color:#555;box-shadow:none;color:#eee !important}.inverted #wrapper,.inverted hr,.inverted p,.inverted td,.inverted li,.inverted h1,.inverted h2,.inverted h3,.inverted h4,.inverted h5,.inverted h6,.inverted th,.inverted .math,.inverted caption,.inverted dd,.inverted dt,.inverted blockquote{border-color:#555;box-shadow:none;color:#eee !important}.inverted td,.inverted th{background:#333}.inverted pre,.inverted code,.inverted tt{background:#eeeeee !important;color:#111}.inverted h2{border-color:#555555}.inverted hr{border-color:#777;border-width:1px !important}::selection{background:rgba(157,193,200,0.5)}h1::selection{background-color:rgba(45,156,208,0.3)}h2::selection{background-color:rgba(90,182,224,0.3)}h3::selection,h4::selection,h5::selection,h6::selection,li::selection,ol::selection{background-color:rgba(133,201,232,0.3)}code::selection{background-color:rgba(0,0,0,0.7);color:#eeeeee}code span::selection{background-color:rgba(0,0,0,0.7) !important;color:#eeeeee !important}a::selection{background-color:rgba(255,230,102,0.2)}.inverted a::selection{background-color:rgba(255,230,102,0.6)}td::selection,th::selection,caption::selection{background-color:rgba(180,237,95,0.5)}.inverted{background:#0b2531;background:#252a2a}.inverted #wrapper{background:#252a2a}.inverted a{color:#acd1d5}}.highlight{background:#fff}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k,.highlight .o{font-weight:700}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:700}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:700;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:700}.highlight .gu{color:purple;font-weight:700}.highlight .gt{color:#a00}.highlight .kc,.highlight .kd,.highlight .kn,.highlight .kp,.highlight .kr{font-weight:700}.highlight .kt{color:#458;font-weight:700}.highlight .m{color:#099}.highlight .s{color:#d14}.highlight .n{color:#333}.highlight .na{color:teal}.highlight .nb{color:#0086b3}.highlight .nc{color:#458;font-weight:700}.highlight .no{color:teal}.highlight .ni{color:purple}.highlight .ne,.highlight .nf{color:#900;font-weight:700}.highlight .nn{color:#555}.highlight .nt{color:navy}.highlight .nv{color:teal}.highlight .ow{font-weight:700}.highlight .w{color:#bbb}.highlight .mf,.highlight .mh,.highlight .mi,.highlight .mo{color:#099}.highlight .sb,.highlight .sc,.highlight .sd,.highlight .s2,.highlight .se,.highlight .sh,.highlight .si,.highlight .sx{color:#d14}.highlight .sr{color:#009926}.highlight .s1{color:#d14}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc,.highlight .vg,.highlight .vi{color:teal}.highlight .il{color:#099}.highlight .gc{color:#999;background-color:#EAF2F5}.type-csharp .highlight .k,.type-csharp .highlight .kt{color:blue}.type-csharp .highlight .nf{color:#000;font-weight:400}.type-csharp .highlight .nc{color:#2b91af}.type-csharp .highlight .nn{color:#000}.type-csharp .highlight .s,.type-csharp .highlight .sc{color:#a31515}.type-csharp .highlight .k,.type-csharp .highlight .kt{color:#00F}.type-csharp .highlight .nf{color:#000;font-weight:normal}.type-csharp .highlight .nc{color:#2B91AF}.type-csharp .highlight .nn{color:#000}.type-csharp .highlight .s,.type-csharp .highlight .sc{color:#A31515}body.dark #wrapper{background:transparent !important;box-shadow:none !important}kbd{background-color:#fafbfc;border:1px solid #d1d5da;border-radius:3px;box-shadow:inset 0 -1px 0 #d1d5da;color:#444d56;display:inline-block;font:11px SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;line-height:10px;padding:3px 5px;vertical-align:middle}.inverted kbd{background-color:#666;color:#fff}
+#mkreplaced-toc{list-style-position:inside;padding:0;margin:0 0 0 1rem;list-style-type:none}#mkreplaced-toc li::before{content:''}#mkreplaced-toc li{font-size:1rem;line-height:1.25;font-weight:normal}#mkreplaced-toc li ul{font-size:1.3rem;font-weight:300;padding:.5rem 0;margin:0 0 0 1rem}#mkreplaced-toc li.missing{list-style-type:none !important}#mkreplaced-toc.max-1 ul,#mkreplaced-toc.max1 ul{display:none}#mkreplaced-toc.max-2 ul ul,#mkreplaced-toc.max2 ul ul{display:none}#mkreplaced-toc.max-3 ul ul ul,#mkreplaced-toc.max3 ul ul ul{display:none}#mkreplaced-toc.max-4 ul ul ul ul,#mkreplaced-toc.max4 ul ul ul ul{display:none}#mkreplaced-toc.max-5 ul ul ul ul ul,#mkreplaced-toc.max5 ul ul ul ul ul{display:none}.mk-rtl{direction:rtl;text-align:right}.mkprinting,.mkprinting #wrapper{height:auto;margin-bottom:0;padding-bottom:0}.hideProgress #generated-toc,.hideProgress #firstdiff,.hideProgress #toc-title,.hideProgress #mkdocumentprogress,.hideProgress #mkincludechart,.hideProgress #mkprogressbar1,.hideProgress #mkprogressbar2,.hideProgress b.bookmark,.hideProgress .mkscrollmeter,.hideProgress #alllinks,.hideProgress #criticnav,.hideProgress .popup,.hideProgress #progressindicator,.hideProgress #mkautoscroll,.mkprinting #generated-toc,.mkprinting #firstdiff,.mkprinting #toc-title,.mkprinting #mkdocumentprogress,.mkprinting #mkincludechart,.mkprinting #mkprogressbar1,.mkprinting #mkprogressbar2,.mkprinting b.bookmark,.mkprinting .mkscrollmeter,.mkprinting #alllinks,.mkprinting #criticnav,.mkprinting .popup,.mkprinting #progressindicator,.mkprinting #mkautoscroll{display:none !important}.hideProgress .mkstyledtag,.mkprinting .mkstyledtag{display:none}.mkcolor-grammar-error,.mkcolor-spell-error{background:none;border-bottom:none}.mkprinting.mkshowcomments .mkstyledtag{display:inline;background:#ccc;padding:3px 9px;border-radius:20px;font-size:1}@media print{body{background:white;line-height:1.4}html,body,#wrapper{-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;-webkit-perspective:none !important;-webkit-text-size-adjust:none;border:0;box-sizing:border-box;float:none;margin:0;max-width:100%;padding:0;margin-top:0;width:auto}.critic #wrapper mark.crit{background-color:#fffd38 !important;text-decoration:none;color:#000}h1,h2,h3,h4,h5,h6{page-break-after:avoid}p,h2,h3{orphans:3;widows:3}section{page-break-before:avoid}pre>code{white-space:pre;word-break:break-word}#generated-toc,#firstdiff,#toc-title,#mkdocumentprogress,#mkincludechart,#mkprogressbar1,#mkprogressbar2,.mkscrollmeter,#alllinks,.popup{display:none !important}.suppressprintlinks a{border-bottom:none !important;color:inherit !important;cursor:default !important;text-decoration:none !important}.hrefafterlinktext #wrapper a:link:after,.hrefafterlinktext #wrapper a:visited:after{content:" (" attr(href) ") ";font-size:90%;opacity:.9}.nocodebreak pre{page-break-inside:avoid}img,table,figure{page-break-inside:avoid}.breakfootnotes .footnotes{page-break-before:always}.breakfootnotes .footnotes hr{display:none}#mktoctitle{display:block}#print-title{border-bottom:solid 1px #666;display:block}#wrapper pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}#wrapper #generated-toc-clone,#wrapper #mkreplaced-toc{display:block}.task-list .task-list-item{list-style-type:none !important}.task-list .gh-complete.task-list-item .task-list-item-checkbox:before{background:#838387;content:'\2713'}.task-list .task-list-item-checkbox{-webkit-appearance:none;position:relative}.task-list .task-list-item-checkbox:before{border:solid 1px #aaa;border-radius:2px;color:white;content:' ';display:block;font-weight:bold;height:1em;left:-20px;line-height:1;position:absolute;text-align:center;top:-.75em;width:1em}}
+#wrapper #generated-toc-clone,#wrapper #mkreplaced-toc,#wrapper #generated-toc-clone ul,#wrapper #mkreplaced-toc ul{list-style-position:inside}#wrapper #generated-toc-clone li.missing,#wrapper #mkreplaced-toc li.missing{list-style-type: none!important}#wrapper #generated-toc-clone ul,#wrapper #mkreplaced-toc ul{list-style-type: upper-roman}#wrapper #generated-toc-clone>ul>li>ul,#wrapper #mkreplaced-toc>li>ul {list-style-type: decimal}#wrapper #generated-toc-clone>ul>li>ul>li>ul,#wrapper #mkreplaced-toc>li>ul>li>ul{list-style-type: decimal-leading-zero}#wrapper #generated-toc-clone>ul>li>ul>li>ul>li>ul,#wrapper #mkreplaced-toc>li>ul>li>ul>li>ul{list-style-type: lower-greek}#wrapper #generated-toc-clone>ul>li>ul>li>ul>li>ul>li>ul,#wrapper #mkreplaced-toc>li>ul>li>ul>li>ul>li>ul{list-style-type: disc}#wrapper #generated-toc-clone>ul>li>ul>li>ul>li>ul>li>ul>li>ul,#wrapper #mkreplaced-toc>li>ul>li>ul>li>ul>li>ul>li>ul{list-style-type: square}#wrapper #generated-toc-clone,#wrapper #mkreplaced-toc{}
+</style>
+
+<style id="mkprintstyles">@media print{#wrapper #generated-toc-clone,#generated-toc{display:none!important}
+html,body,#wrapper{font-size:10pt!important}
+}
+</style>
+
+
+  </head>
+<body class="normal">
+  <div id="wrapper">
+<h1 id="aidprimeraaprimerofcolloquialcornish"><a id="primer"></a> A Primer of Colloquial Cornish</h1>
+
+<h1 id="tableofcontents">Table of Contents</h1>
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+<ul>
+<li><a href="#a-idprimera-a-primer-of-colloquial-cornish"><a id="primer"></a> A Primer of Colloquial Cornish</a></li>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+<li><a href="#an-introduction-to-colloquial-cornish">An introduction to Colloquial Cornish</a></li>
+<li><a href="#section-a-descriptions-close-experimentation-with-features-existent-in-colloquial-form">Section A: Descriptions; close experimentation with features existent in colloquial form</a>
+
+<ul>
+<li><a href="#a1-consonant-mutations">§A.1 Consonant mutations</a>
+
+<ul>
+<li><a href="#a11-table-of-mutations">§A.1.1 Table of mutations</a></li>
+<li><a href="#a12-notes-on-consonant-mutation">§A.1.2 Notes on consonant mutation</a></li>
+<li><a href="#a13-caveat-on-consonant-mutations">§A.1.3 Caveat on consonant mutations</a></li>
+</ul></li>
+<li><a href="#a2-pronouns">§A.2 Pronouns</a>
+
+<ul>
+<li><a href="#a21-personal-independent-pronouns">§A.2.1 Personal independent pronouns</a>
+
+<ul>
+<li><a href="#a211-notes-on-independent-pronouns">§A.2.1.1 Notes on independent pronouns</a></li>
+</ul></li>
+<li><a href="#a22-personal-dependent-pronouns">§A.2.2 Personal dependent pronouns</a>
+
+<ul>
+<li><a href="#a221-notes-on-dependent-pronouns">§A.2.2.1 Notes on dependent pronouns</a></li>
+</ul></li>
+<li><a href="#a23-verbal-dependent-pronouns">§A.2.3 Verbal dependent pronouns</a>
+
+<ul>
+<li><a href="#a231-notes-on-verbal-dependent-pronouns">§A.2.3.1 Notes on verbal dependent pronouns</a></li>
+</ul></li>
+<li><a href="#a24-possessive-adjectives">§A.2.4 Possessive adjectives</a>
+
+<ul>
+<li><a href="#a241-notes-on-possessive-adjectives">§A.2.4.1 Notes on possessive adjectives</a></li>
+<li><a href="#a242-usage-of-possessive-adjectives">§A.2.4.2 Usage of possessive adjectives</a></li>
+</ul></li>
+<li><a href="#a25-infixed-direct-and-possessive-pronouns">§A.2.5 Infixed direct and possessive pronouns</a>
+
+<ul>
+<li><a href="#a251-infixed-direct-pronouns">§A.2.5.1 Infixed direct pronouns</a></li>
+<li><a href="#a252-infixed-possessive-pronouns">§A.2.5.2 Infixed possessive pronouns</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#a3-prepositions">§A.3 Prepositions</a>
+
+<ul>
+<li><a href="#a31-common-preposition-endings">§A.3.1 Common preposition endings</a></li>
+<li><a href="#a32-asup2sup">§A.3.2 a<sup>2</sup></a></li>
+<li><a href="#a33-dannsup2sup">§A.3.3 dann<sup>2</sup></a></li>
+<li><a href="#a34-dhesup2sup">§A.3.4 dhe<sup>2</sup></a></li>
+<li><a href="#a35-dresup2sup">§A.3.5 dre<sup>2</sup></a></li>
+<li><a href="#a36-dres">§A.3.6 dres</a></li>
+<li><a href="#a37-gan">§A.3.7 gan</a></li>
+<li><a href="#a38-heb">§A.3.8 heb</a></li>
+<li><a href="#a39-orth">§A.3.9 ort(h)</a></li>
+<li><a href="#a310-rag">§A.3.10 rag</a></li>
+<li><a href="#a311-warsup2sup">§A.3.11 war<sup>2</sup></a></li>
+<li><a href="#a312-yn">§A.3.12 yn</a></li>
+</ul></li>
+<li><a href="#a4-verbs-and-conjugation">§A.4 Verbs and conjugation</a>
+
+<ul>
+<li><a href="#a41-tense">§A.4.1 Tense</a>
+
+<ul>
+<li><a href="#a411-present-tense">§A.4.1.1 Present tense</a></li>
+<li><a href="#a412-imperfect-tense">§A.4.1.2 Imperfect tense</a></li>
+<li><a href="#a413-preterite-tense">§A.4.1.3 Preterite tense</a></li>
+<li><a href="#a414-conditionalpluperfect-tense">§A.4.1.4 Conditional/pluperfect tense</a></li>
+</ul></li>
+<li><a href="#a42-subjunctive-mood">§A.4.2 Subjunctive mood</a></li>
+<li><a href="#a43-colloquial-cornish-and-verbal-particles">§A.4.3 Colloquial Cornish and verbal particles</a></li>
+<li><a href="#a44-indicative-verbs">§A.4.4 Indicative verbs</a>
+
+<ul>
+<li><a href="#a431-indicative-verbs-in-verbal-environments">§A.4.3.1 Indicative verbs in verbal environments</a></li>
+<li><a href="#a432-indicative-verbs-in-nominal-environments">§A.4.3.2 Indicative verbs in nominal environments</a></li>
+</ul></li>
+<li><a href="#a45-interrogative-verbs">§A.4.5 Interrogative verbs</a></li>
+<li><a href="#a46-negative-verbs">§A.4.6 Negative verbs</a></li>
+<li><a href="#a47-interrogative-negative-verbs">§A.4.7 Interrogative-negative verbs</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#section-b-new-and-experimental-forms">Section B: New and experimental forms</a>
+
+<ul>
+<li><a href="#b1-consonant-mutations">§B.1 Consonant mutations</a>
+
+<ul>
+<li><a href="#b11-alternative-notation">§B.1.1 Alternative notation</a>
+
+<ul>
+<li><a href="#b111-lenition">§B.1.1.1 Lenition</a></li>
+<li><a href="#b112-spirantisation">§B.1.1.2 Spirantisation</a></li>
+<li><a href="#b113-provection-and-mixed-mutation">§B.1.1.3 Provection and mixed mutation</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#b3-prepositions">§B.3 Prepositions</a>
+
+<ul>
+<li><a href="#b31-am">§B.3.1 am</a></li>
+<li><a href="#b32-orth">§B.3.2 orth</a></li>
+<li><a href="#b33-war">§B.3.3 war</a></li>
+<li><a href="#b34-yn">§B.3.4 yn</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#section-c-orthography">Section C: Orthography</a></li>
+</ul>
+<!-- /TOC -->
+
+<h1 id="anintroductiontocolloquialcornish">An introduction to Colloquial Cornish</h1>
+
+<p>Contrary to the motivations prevalent in the scholarship of much of Modern Cornish, Colloquial Cornish is not, in fact, intended to be a reinterpretation of the textual attestations of many periods of the Cornish language. Colloquial Cornish is a mask, and can be considered something of an extention to the varieties and dialects currently in existence. As a result, it is in fact the only variety of Cornish currently in existence not bound by its textual attestations, nor bound to a particular orthography. It is a set of grammar and and processes which can be applied to any dialect or standard which invariably results in either the simplification of standardised grammar, or the focus on already-present colloquialised aspects of grammar present within certain standards. As such, every present dialect, whether standard or not, can be made Colloquial, and Colloquial is as non-specific a term as is demanded by the sheer variety of the Cornish language.</p>
+
+<p>It is a necessity, to select an orthography for the purposes of compiling this primer. I will hereafter use Standard Written form to detail Collquial Cornish, and to provide an example of how a standard can be adapted in a colloquial fashion. It is of course worth mentioning, though, that users are not obliged to use SWF as the basis for their Colloquial writing or speech. In reading this primer and gaining a full understanding of the differences of Colloquial Cornish, any written form or spoken idiolect may be adapted thereto. I personally use an adapted form of Kernewek Kemmyn, which I will write out and explain in full at the end of this primer.</p>
+
+<p>The aim of this primer and the features contained herein is the introduction of features which allow for more natural, divergent, expressive and concise speech, which is not bound by phonology or text, but rather on the natural development of the speech community. It also serves as a source to provide the speaking community with the means to pick and choose means with which they can vary their own speech, even beyond the limits of what is discussed in this primer! As a result, please feel free, as readers and proponents of a living, breathing language, the most important message is to define the manner of your own speech yourselves; feel free to adopt or ignore whichever parts of this primer appeal to you, and by all means feels free to experiment with the features contained herein.</p>
+
+<p>I have separated this primer into multiple sections for ease of navigation. The first, <strong>section A</strong>, is concerned with presenting features which already exist in colloquial speech, as well as presenting minor variations on such features; <strong>section B</strong> presents radically new vocabulary and grammar thaty may not be present within the language already, though a posteriori features are prioritised; <strong>section C</strong> is devoted to discussions of orthography.</p>
+
+<h1 id="sectiona%3Adescriptionscloseexperimentationwithfeaturesexistentincolloquialform">Section A: Descriptions; close experimentation with features existent in colloquial form</h1>
+
+<h2 id="%C2%A7a.1consonantmutations">§A.1 Consonant mutations</h2>
+
+<h3 id="%C2%A7a.1.1tableofmutations">§A.1.1 Table of mutations</h3>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">1: Unmutated<sup>1</sup></th>
+	<th style="text-align:center;">2: Soft<sup>1</sup></th>
+	<th style="text-align:center;">3: Breathed<sup>1</sup></th>
+	<th style="text-align:center;">4: Hard<sup>1</sup></th>
+	<th style="text-align:center;">5: Mixed<sup>1</sup></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">b-</td>
+	<td style="text-align:center;">v-</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">p-</td>
+	<td style="text-align:center;">v-; f- only in isolation</td>
+</tr>
+<tr>
+	<td style="text-align:center;">ch-</td>
+	<td style="text-align:center;">j-</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">—</td>
+</tr>
+<tr>
+	<td style="text-align:center;">d-</td>
+	<td style="text-align:center;">dh-</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">t-</td>
+	<td style="text-align:center;">t-</td>
+</tr>
+<tr>
+	<td style="text-align:center;">ga-</td>
+	<td style="text-align:center;">Ø</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">ka-</td>
+	<td style="text-align:center;">Ø-; ha- only in isolation</td>
+</tr>
+<tr>
+	<td style="text-align:center;">ge-</td>
+	<td style="text-align:center;">Ø</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">ke-</td>
+	<td style="text-align:center;">Ø-; he- only in isolation</td>
+</tr>
+<tr>
+	<td style="text-align:center;">gi-</td>
+	<td style="text-align:center;">Ø</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">ki-</td>
+	<td style="text-align:center;">Ø-; hi- only in isolation</td>
+</tr>
+<tr>
+	<td style="text-align:center;">gy-</td>
+	<td style="text-align:center;">Ø</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">ky-</td>
+	<td style="text-align:center;">Ø-; hy- only in isolation</td>
+</tr>
+<tr>
+	<td style="text-align:center;">go-</td>
+	<td style="text-align:center;">wo-</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">ko-</td>
+	<td style="text-align:center;">wo-; ho- only in isolation</td>
+</tr>
+<tr>
+	<td style="text-align:center;">gu-</td>
+	<td style="text-align:center;">wu-</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">ku-</td>
+	<td style="text-align:center;">wu-; hu- only in isolation</td>
+</tr>
+<tr>
+	<td style="text-align:center;">gro-</td>
+	<td style="text-align:center;">wro-</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">kro-</td>
+	<td style="text-align:center;">wro-</td>
+</tr>
+<tr>
+	<td style="text-align:center;">gru-</td>
+	<td style="text-align:center;">wru-</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">kru-</td>
+	<td style="text-align:center;">wru-</td>
+</tr>
+<tr>
+	<td style="text-align:center;">k-</td>
+	<td style="text-align:center;">g-</td>
+	<td style="text-align:center;">h-</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">—</td>
+</tr>
+<tr>
+	<td style="text-align:center;">m-</td>
+	<td style="text-align:center;">v-</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">v-; f- only in isolation</td>
+</tr>
+<tr>
+	<td style="text-align:center;">p-</td>
+	<td style="text-align:center;">b-</td>
+	<td style="text-align:center;">f-</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">—</td>
+</tr>
+<tr>
+	<td style="text-align:center;">t-</td>
+	<td style="text-align:center;">d-</td>
+	<td style="text-align:center;">th-</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">—</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><em>f-</em><sup>2</sup></td>
+	<td style="text-align:center;"><em>v-</em></td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">—</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><em>s-</em><sup>2</sup></td>
+	<td style="text-align:center;"><em>s-</em></td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">—</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="%C2%A7a.1.2notesonconsonantmutation">§A.1.2 Notes on consonant mutation</h3>
+
+<ol>
+<li>Alternative, more scientific, names exist for each mutation; the soft may be called &#8220;lenition&#8221;; the breathed may be called &#8220;aspiration&#8221; or &#8220;spirantisation&#8221;; the hard may be called &#8220;provection&#8221;.</li>
+<li>The final two entries, <em>f-</em> and <em>s-</em>, are entered in italics because their mutation is optional. This is found in the specification for Kernowak Standard, and so has been appropriated for use in Colloquial Cornish as well. It was defined in that standard as being optional in colloquial registers, so its inclusion here is appropriate.</li>
+<li>The mutations for the radicals <em>go-</em> and <em>gu-</em> are listed as <em>wo-</em> and <em>wu-</em> as is present in the vast majority of the spoken language, similarly to the presentation of the soft mutations of the radicals <em>gro-</em> and <em>gru-</em>. However, there are language varieties present in which the mutations of the latter, namely <em>wro-</em> and <em>wru-</em> are presented without the initial <em>w-</em>. So, to mimic this, and to extend the pattern initiated by <em>g-</em> preceding unrounded non-back vowels, some speakers may prefer to present the soft mutation of <em>g-</em> overall, regardless of the following letter, as simply <em>Ø</em>, or the absence of any letter; that is, the complete deletion of the initial <em>g-</em> without replacing it with anything else.</li>
+<li>Point <strong>3.</strong> may extend to the isolated forms in mixed (5th) mutation of <em>g-</em>. Separate forms are given for this mutation because of the different functions which this mutation carries out. The desire for simplification has led to the mixed mutation being engineered to mimic lenition in most circumstances, such as after particles which demand the mixed mutation. In isolation, however, it is preferred <em>ga-</em>, <em>ge-</em>, <em>gi-</em> and <em>gy-</em> have those forms which set them apart quite distinctly from the second mutation, given the important grammatical implications which may be present if the two were to be confused. The forms of rounded back vowels preceded by <em>gr-</em> may either be preceded in mutation by <em>hr-</em> (to mimic the pattern of mixed mutation up until that point) or <em>wr-</em> (for a more euphonic pronunciation.)</li>
+<li>Because there is a lack of mutation present for many letters in the mixed mutation, and because of the importance of this mutation grammatically, some speakers may prefer to engineer further mutations in the mixed; a recommendation might be to apply aspirate mutation wherever it is possible (i.e. to <em>k-</em>, <em>p-</em> and <em>t-</em>) and soft mutation otherwise (i.e. to <em>ch-</em> and optionally <em>f-</em> and <em>s-</em>,) specifically to provide as much variety as possible to disambiguate this mutation from lenition, or even soft mutation across the board. Feel free, as speakers, to explore the possibilities here, and create whatever feels euphonic and distinctive enough for you!</li>
+</ol>
+
+<h3 id="%C2%A7a.1.3caveatonconsonantmutations">§A.1.3 Caveat on consonant mutations</h3>
+
+<p>It is important to mention that, while mutations are grammatically prescribed in Cornish, and are important to its grammar, some speakers may prefer to vary the precise mutations which they use in certain circumstances. Particularly with such complex and erratic mutations as the mixed, however, perhaps there will be speakers who might prefer to substitute this either with the simpler interpretation of mixed mutation outlined in the notes above, or perhaps even with the soft mutation! The choice is, as has been said, very much yours.</p>
+
+<h2 id="%C2%A7a.2pronouns">§A.2 Pronouns</h2>
+
+<p>The system of pronouns has been changed quite radically, mainly to conform to the phenomenon of particle-dropping, which will be discussed in greater detail later. The result of this, in this primer, is that there is a new set of pronouns created. In addition, this primer makes use of the neologism <em>hynn</em> and terms related thereto, as the newly coined gender-neutral 3rd person singular pronoun.<br/>
+*** </p>
+
+<h3 id="%C2%A7a.2.1personalindependentpronouns">§A.2.1 Personal independent pronouns</h3>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person and number</th>
+	<th style="text-align:center;">Pronoun</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1st singular</td>
+	<td style="text-align:center;">my</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2nd singular</td>
+	<td style="text-align:center;">ty</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd masculine singular</td>
+	<td style="text-align:center;">ev</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd feminine singular</td>
+	<td style="text-align:center;">hi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd neutral singular</td>
+	<td style="text-align:center;">hynn</td>
+</tr>
+<tr>
+	<td style="text-align:center;">1st plural</td>
+	<td style="text-align:center;">ni</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2nd plural</td>
+	<td style="text-align:center;">hwi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd plural</td>
+	<td style="text-align:center;">i</td>
+</tr>
+</tbody>
+</table>
+
+<p>These are the forms which are used independently of verbs or prepositions.</p>
+
+<h4 id="%C2%A7a.2.1.1notesonindependentpronouns">§A.2.1.1 Notes on independent pronouns</h4>
+
+<ol>
+<li><strong>My</strong> and <strong>ty</strong> both can be respelt with final <em>-e</em>, as <strong>me</strong> and <strong>te</strong>.</li>
+<li><strong>Ty</strong> can be respelt and pronounced with <em>ch-</em> in place of <em>t-</em>.</li>
+<li><strong>Ev</strong> can, and very commonly will, drop its final <em>-v</em>.</li>
+<li><strong>Hynn</strong> can be spelt with only a single final <em>-n</em>, as <strong>hyn</strong>.</li>
+<li><strong>I</strong> can be rewritten as the result of reanalysis present in Late dialects, as <strong>anji</strong>, <strong>ansi</strong>, <strong>ji</strong>, <strong>si</strong>, or many variants thereof.</li>
+</ol>
+
+<hr />
+
+<h3 id="%C2%A7a.2.2personaldependentpronouns">§A.2.2 Personal dependent pronouns</h3>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person and number</th>
+	<th style="text-align:center;">Pronoun</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1st singular</td>
+	<td style="text-align:center;">vy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2nd singular</td>
+	<td style="text-align:center;">jy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd masculine singular</td>
+	<td style="text-align:center;">e(v)</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd feminine singular</td>
+	<td style="text-align:center;">hi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd neutral singular</td>
+	<td style="text-align:center;">hynn</td>
+</tr>
+<tr>
+	<td style="text-align:center;">1st plural</td>
+	<td style="text-align:center;">ni</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2nd plural</td>
+	<td style="text-align:center;">hwi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd plural</td>
+	<td style="text-align:center;">i</td>
+</tr>
+</tbody>
+</table>
+
+<p>These are the forms which are used to indicate pronouns as objects, or to be used with verbs and prepositions.</p>
+
+<h4 id="%C2%A7a.2.2.1notesondependentpronouns">§A.2.2.1 Notes on dependent pronouns</h4>
+
+<ol>
+<li>As with their independent variants, <strong>vy</strong> and <strong>jy</strong> can be respelt with final <em>-e</em>, as <strong>ve</strong> and <strong>je</strong>.</li>
+<li><strong>Vy</strong> has a major variant <strong>ma</strong></li>
+<li><strong>Jy</strong> has a major variant <strong>sy</strong>, which can be subject to rule <strong>1.</strong>, and therefore can be respelt as <strong>se</strong>.</li>
+<li>The rest of these pronouns are subject to the same rules as their independent counterparts.</li>
+</ol>
+
+<hr />
+
+<h3 id="%C2%A7a.2.3verbaldependentpronouns">§A.2.3 Verbal dependent pronouns</h3>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person and number</th>
+	<th style="text-align:center;">Pronoun</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1st singular</td>
+	<td style="text-align:center;">ma<sup>2</sup></td>
+</tr>
+<tr>
+	<td style="text-align:center;">2nd singular</td>
+	<td style="text-align:center;">ta<sup>2</sup></td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd masculine singular</td>
+	<td style="text-align:center;">va<sup>2</sup></td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd feminine singular</td>
+	<td style="text-align:center;">hi<sup>2</sup></td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd neutral singular</td>
+	<td style="text-align:center;">hynn<sup>2</sup></td>
+</tr>
+<tr>
+	<td style="text-align:center;">1st plural</td>
+	<td style="text-align:center;">ni<sup>2</sup></td>
+</tr>
+<tr>
+	<td style="text-align:center;">2nd plural</td>
+	<td style="text-align:center;">hwi<sup>2</sup></td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd plural</td>
+	<td style="text-align:center;">i<sup>2</sup></td>
+</tr>
+</tbody>
+</table>
+
+<p>This is the set of pronouns which was mentioned in the introduction to this section. Although most of these are the same as their independent/dependent counterparts, the most divergent ones explicitly incorporate the verbal particle <strong>a<sup>2</sup></strong>. That particle is otherwise implied in every other pronoun, because the rest all implicitly cause lenition as though their corresponding <strong>a<sup>2</sup></strong> particle were included with them.</p>
+
+<h4 id="%C2%A7a.2.3.1notesonverbaldependentpronouns">§A.2.3.1 Notes on verbal dependent pronouns</h4>
+
+<p>This set of pronouns is the newest introduction to the language, and the forms <strong>ma<sup>2</sup></strong>, <strong>ta<sup>2</sup></strong> and <strong>va<sup>2</sup></strong> are a reflection of the pronunciation of these particles in quick colloquial speech. As a result, they somewhat reflect the practice of idiolect, and so can be subject to change based on personal preference. The most common variation may simply be to revert these pronouns to their independent forms, while maintaining the necessary mutation, giving <strong>my<sup>2</sup></strong>, <strong>ty<sup>2</sup></strong> and <strong>e(v)<sup>2</sup></strong>.<br/>
+Because of these pronouns having subsumed the particle <strong>a<sup>2</sup></strong>, they can <em>only</em> be used prior to conjugated verbs in the 3rd person singular in the appropriate tense, as is demanded by the combination (which this pronoun set effectively replaces) of [personal pronoun] + <strong>a<sup>2</sup></strong> in the literary language.<br/>
+Also as a result of subsuming the particle <strong>a<sup>2</sup></strong>, most of these particles can be combined with infixed pronouns to indicate the direct object of the verb in question.<br/>
+*** </p>
+
+<h3 id="%C2%A7a.2.4possessiveadjectives">§A.2.4 Possessive adjectives</h3>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person and number</th>
+	<th style="text-align:center;">Pronoun</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1st singular</td>
+	<td style="text-align:center;">ow<sup>3</sup></td>
+</tr>
+<tr>
+	<td style="text-align:center;">2nd singular</td>
+	<td style="text-align:center;">dha<sup>2</sup></td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd masculine singular</td>
+	<td style="text-align:center;">y<sup>2</sup></td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd feminine singular</td>
+	<td style="text-align:center;">hy<sup>3</sup></td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd neutral singular</td>
+	<td style="text-align:center;">ho<sup>2</sup></td>
+</tr>
+<tr>
+	<td style="text-align:center;">1st plural</td>
+	<td style="text-align:center;">agan</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2nd plural</td>
+	<td style="text-align:center;">agas</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd plural</td>
+	<td style="text-align:center;">aga<sup>3</sup></td>
+</tr>
+</tbody>
+</table>
+
+<p>This set of pronouns is the means of describing possession of an item, such as &#8220;my&#8221;, &#8220;your&#8221;, etc.</p>
+
+<h4 id="%C2%A7a.2.4.1notesonpossessiveadjectives">§A.2.4.1 Notes on possessive adjectives</h4>
+
+<p>Possessive adjectives are also subject to considerable variation.</p>
+
+<ol>
+<li><strong>Ow<sup>3</sup></strong> may be reduced to <strong>o<sup>3</sup></strong> or <strong>a<sup>3</sup></strong>. These may be written with or without a trailing apostrophe after the adjectives, to indicate their status as something which is reduced.</li>
+<li>Alternatively, <strong>ow<sup>3</sup></strong> has a major variation <strong>ma<sup>3</sup></strong>.</li>
+<li>Finally, <strong>ow<sup>3</sup></strong> may reduce to <strong>m&#8217;</strong> before words beginning with a vowel.</li>
+<li><strong>Dha<sup>2</sup></strong> may reduce to <strong>da<sup>2</sup></strong>, and even further to <strong>d&#8217;</strong> before words beginning with a vowel.</li>
+<li><strong>Y<sup>2</sup></strong> and <strong>hy<sup>3</sup></strong> may lower their <em>-y</em> vowels to <em>-e</em>.</li>
+<li><strong>Y<sup>2</sup></strong> and <strong>hy<sup>3</sup></strong> may both reduce to simply <strong>y<sup>2</sup></strong>/<strong>y<sup>3</sup></strong>; this may also be subject to rule <strong>5.</strong> which may render each adjective instead as <strong>e<sup>2</sup></strong>/<strong>e<sup>3</sup></strong>.</li>
+<li><strong>Agan</strong>, <strong>agas</strong> and <strong>aga<sup>3</sup></strong> may all drop their initial <em>a-</em>, giving <strong>gan</strong>—<strong>gas</strong>—<strong>ga<sup>3</sup></strong>.</li>
+</ol>
+
+<h4 id="%C2%A7a.2.4.2usageofpossessiveadjectives">§A.2.4.2 Usage of possessive adjectives</h4>
+
+<p>There is also in fact some variation on how, and even whether, possessive adjectives are used within the language. This can be described across several stages, from most standard/formal to most divergent/informal:</p>
+
+<ol>
+<li>The full form and mutation are used. There may optionally be a reduplicated personal dependent pronoun after the noun or verbnoun in question.</li>
+<li>The full form is used, but without the relevant mutation. There may optionally be a reduplicated personal dependent pronoun after the noun or verbnoun in question.</li>
+<li>No possessive adjective is used, but the relevant mutation is applied to the noun and personal dependent pronoun compulsorily placed after the noun.</li>
+<li>Finally, most informally, no possessive adjective is used, no mutation is applied to the noun, and the personal dependent pronoun is compulsorily placed after the noun.</li>
+</ol>
+
+<hr />
+
+<h3 id="%C2%A7a.2.5infixeddirectandpossessivepronouns">§A.2.5 Infixed direct and possessive pronouns</h3>
+
+<h4 id="%C2%A7a.2.5.1infixeddirectpronouns">§A.2.5.1 Infixed direct pronouns</h4>
+
+<p>This is the pronoun set which is used to indicate the direct object of a verb.</p>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person and number</th>
+	<th style="text-align:center;">Pronoun</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1st singular</td>
+	<td style="text-align:center;">&#8217;m</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2nd singular</td>
+	<td style="text-align:center;">&#8217;th<sup>5</sup></td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd masculine singular</td>
+	<td style="text-align:center;">&#8217;n</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd feminine singular</td>
+	<td style="text-align:center;">&#8217;s</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd neutral singular</td>
+	<td style="text-align:center;">&#8217;gh</td>
+</tr>
+<tr>
+	<td style="text-align:center;">1st plural</td>
+	<td style="text-align:center;">&#8217;gan</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2nd plural</td>
+	<td style="text-align:center;">&#8217;gas</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd plural</td>
+	<td style="text-align:center;">&#8217;s</td>
+</tr>
+</tbody>
+</table>
+
+<p>These are fairly straightforward, and remain the same as in the standard language for the most part. <strong>&#8217;gan</strong> and <strong>&#8217;gas</strong> may vary to <strong>&#8217;n</strong> and <strong>&#8217;s</strong>, though this might cause confusion with other forms. In such cases, it might be good practice to insert the relevant direct dependent pronoun after the verb to disambiguate the infixed form.<br/>
+*** </p>
+
+<h4 id="%C2%A7a.2.5.2infixedpossessivepronouns">§A.2.5.2 Infixed possessive pronouns</h4>
+
+<p>This is the pronoun set which is used to contract a possessive adjective to attach it to a particle or verbal dependent pronoun.</p>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person and number</th>
+	<th style="text-align:center;">Pronoun</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1st singular</td>
+	<td style="text-align:center;">&#8217;m<sup>(3)</sup></td>
+</tr>
+<tr>
+	<td style="text-align:center;">2nd singular</td>
+	<td style="text-align:center;">&#8217;th<sup>5</sup></td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd masculine singular</td>
+	<td style="text-align:center;">&#8217;y<sup>2</sup></td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd feminine singular</td>
+	<td style="text-align:center;">&#8217;y<sup>3</sup></td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd neutral singular</td>
+	<td style="text-align:center;">&#8217;gh<sup>(2/4)</sup></td>
+</tr>
+<tr>
+	<td style="text-align:center;">1st plural</td>
+	<td style="text-align:center;">&#8217;gan</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2nd plural</td>
+	<td style="text-align:center;">&#8217;gas</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd plural</td>
+	<td style="text-align:center;">&#8217;ga<sup>3</sup></td>
+</tr>
+</tbody>
+</table>
+
+<p>These forms are almost the same as the direct pronouns, apart from where most of the 3rd person forms become more representative of their respective possessive adjectives. The two forms <strong>&#8217;m</strong> and <strong>&#8217;gh</strong> with mutations in brackets indicate that mutation is completely optional after these.<br/>
+***</p>
+
+<h2 id="%C2%A7a.3prepositions">§A.3 Prepositions</h2>
+
+<p>Prepositions are used in four various levels of formality. The basis of prepositions in the colloquial language is the concept of <em>analytic</em> prepositions. These are forms of the prepositions which are reduced from the way in which they are formed in the literary language. This usually involves some pronunciation-based alterations of the pronunciations of these prepositions within the literary language in colloquial speech. These are to be presented as part of the standard practice here, though &#8220;standard practice&#8221; as a whole outlines a large system of variation encompassing different registers of speech. These are, in order of most to least formal, using <em>gans</em> as an example:</p>
+
+<ol>
+<li>The full conjugated preposition that is present in the literary language (e.g. <em>genev</em>)</li>
+<li>A full &#8220;analytic preposition&#8221; (e.g. <em>gena vy</em>)</li>
+<li>A reduced &#8220;analytic preposition&#8221; (e.g. <em>gen vy</em>)</li>
+<li>A completely unconjugated preposition (e.g. <em>gan vy</em>)</li>
+</ol>
+
+<p>The most common prepositions will be presented below with their respective conjugations, and the list above will be used as the basis for the system of classification below. Where some prepositions only have three forms, there is no distinction between the full and reduced analytic preposition. Where some prepositions only have two forms, there is no analytic pronoun at all.<br/>
+Analytic prepositions are <strong>only used with personal pronoun subjects</strong>.</p>
+
+<h3 id="%C2%A7a.3.1commonprepositionendings">§A.3.1 Common preposition endings</h3>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person</th>
+	<th style="text-align:center;">Preposition</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1sg</td>
+	<td style="text-align:center;">-v (-ov / -iv / -av) / -am</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2sg</td>
+	<td style="text-align:center;">-s (-os / -is / -as)</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg masculine</td>
+	<td style="text-align:center;">-o</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg feminine</td>
+	<td style="text-align:center;">-i</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg neutral</td>
+	<td style="text-align:center;">-m (-om)</td>
+</tr>
+<tr>
+	<td style="text-align:center;">1pl</td>
+	<td style="text-align:center;">-n (-yn / -an)</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2pl</td>
+	<td style="text-align:center;">-wgh (-owgh)</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3pl</td>
+	<td style="text-align:center;">-a / -ans</td>
+</tr>
+</tbody>
+</table>
+
+<p>The figures in brackets indicate particularly common endings within the paradigm of certain conjugations. The following major variations can occur:</p>
+
+<ol>
+<li><strong>-v</strong> in first person conjugation endings can often disappear, to leave only a trailing vowel at the end of a preposition. Where this might cause confusion, reduplicate the direct dependent pronoun after the preposition</li>
+<li><strong>-am</strong> is the alternative first-person ending, and can be considered slightly more colloquial than <strong>-v</strong></li>
+<li><strong>-owgh</strong> can reduce to simply <strong>-ow</strong>, with or without a trailing apostrophe at the end (as <strong>-ow&#8217;</strong>) to indicate elision of the full ending</li>
+<li><strong>-ans</strong> is the form to be preferred when there is no reduplicated pronoun after the preposition</li>
+</ol>
+
+<p>The lists below will detail prepositions that can be conjugated.</p>
+
+<h3 id="%C2%A7a.3.2asup2sup">§A.3.2 a<sup>2</sup></h3>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person</th>
+	<th style="text-align:center;">Preposition</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1sg</td>
+	<td style="text-align:center;">ahanav/ahanam; ahana vy; ana vy; a vy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2sg</td>
+	<td style="text-align:center;">ahanas; ahana jy/sy; ana jy/sy; a jy/sy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg masculine</td>
+	<td style="text-align:center;">anodho; nodho (v)e; ana (v)e; a (v)e</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg feminine</td>
+	<td style="text-align:center;">anedhi; nedhi hi; ana hi; a hi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg neutral</td>
+	<td style="text-align:center;">anodhom; nodho hynn; ana hynn; a hynn</td>
+</tr>
+<tr>
+	<td style="text-align:center;">1pl</td>
+	<td style="text-align:center;">ahanan; ahana ni; ana ni; a ni</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2pl</td>
+	<td style="text-align:center;">ahanow(gh); ahana hwi; ana hwi; a hwi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3pl</td>
+	<td style="text-align:center;">anedha(ns); nedha i/nedhans; ana i; a i</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="%C2%A7a.3.3dannsup2sup">§A.3.3 dann<sup>2</sup></h3>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person</th>
+	<th style="text-align:center;">Preposition</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1sg</td>
+	<td style="text-align:center;">dannov/dannam; danna vy; dann vy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2sg</td>
+	<td style="text-align:center;">dannos; danna jy/sy; dann jy/sy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg masculine</td>
+	<td style="text-align:center;">danno; danna (v)e; dann e(v)</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg feminine</td>
+	<td style="text-align:center;">danni; danna hi; dann hi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg neutral</td>
+	<td style="text-align:center;">dannom; danna hynn; dann hynn</td>
+</tr>
+<tr>
+	<td style="text-align:center;">1pl</td>
+	<td style="text-align:center;">dannon; danna ni; dann ni</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2pl</td>
+	<td style="text-align:center;">dannow(gh); danna hwi; dann hwi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3pl</td>
+	<td style="text-align:center;">danna(ns); danna i; dann i</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="%C2%A7a.3.4dhesup2sup">§A.3.4 dhe<sup>2</sup></h3>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person</th>
+	<th style="text-align:center;">Preposition</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1sg</td>
+	<td style="text-align:center;">dhymm; dhe vy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2sg</td>
+	<td style="text-align:center;">dhis; dhe jy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg masculine</td>
+	<td style="text-align:center;">dhodho; dhe (v)e</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg feminine</td>
+	<td style="text-align:center;">dhedhi; dhe hi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg neutral</td>
+	<td style="text-align:center;">dhodhom; dhe hynn</td>
+</tr>
+<tr>
+	<td style="text-align:center;">1pl</td>
+	<td style="text-align:center;">dhyn; dhe ni</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2pl</td>
+	<td style="text-align:center;">dhyw(gh); dhe hwi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3pl</td>
+	<td style="text-align:center;">dhedha(ns); dhe i</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="%C2%A7a.3.5dresup2sup">§A.3.5 dre<sup>2</sup></h3>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person</th>
+	<th style="text-align:center;">Preposition</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1sg</td>
+	<td style="text-align:center;">dredhov/dredham; dredha vy; dre vy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2sg</td>
+	<td style="text-align:center;">dredhos; dredha jy/sy; dre jy/sy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg masculine</td>
+	<td style="text-align:center;">dredho; dredha (v)e; dre (v)e</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg feminine</td>
+	<td style="text-align:center;">dredhi; dredha hi; dre hi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg neutral</td>
+	<td style="text-align:center;">dredhom; dredha hynn; dre hynn</td>
+</tr>
+<tr>
+	<td style="text-align:center;">1pl</td>
+	<td style="text-align:center;">dredhon; dredha ni; dre ni</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2pl</td>
+	<td style="text-align:center;">dredhow(gh); dredha hwi; dre hwi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3pl</td>
+	<td style="text-align:center;">dredha(ns); dredha i; der i</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="%C2%A7a.3.6dres">§A.3.6 dres</h3>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person</th>
+	<th style="text-align:center;">Preposition</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1sg</td>
+	<td style="text-align:center;">drestov/drestam; dresta vy; dres vy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2sg</td>
+	<td style="text-align:center;">drestos; dresta jy/sy; dres jy/sy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg masculine</td>
+	<td style="text-align:center;">dresto; dresta (v)e; dres ev</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg feminine</td>
+	<td style="text-align:center;">dresti; dresta hi; dres hi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg neutral</td>
+	<td style="text-align:center;">drestom; dresta hynn; dres hynn</td>
+</tr>
+<tr>
+	<td style="text-align:center;">1pl</td>
+	<td style="text-align:center;">dreston; dresta ni; dres ni</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2pl</td>
+	<td style="text-align:center;">drestow(gh); dresta hwi; dres hwi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3pl</td>
+	<td style="text-align:center;">dresta(ns); dresta i; dres i</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="%C2%A7a.3.7gan">§A.3.7 gan</h3>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person</th>
+	<th style="text-align:center;">Preposition</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1sg</td>
+	<td style="text-align:center;">genev/genam; gena vy; gen vy; gan vy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2sg</td>
+	<td style="text-align:center;">genes; gena jy/sy; gen jy/sy; gan jy/sy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg masculine</td>
+	<td style="text-align:center;">ganso; gena (v)e; gen ev; gan ev</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg feminine</td>
+	<td style="text-align:center;">gensi; gena hi; gen hi; gan hi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg neutral</td>
+	<td style="text-align:center;">gansom; gena hynn; gen hynn; gan hynn</td>
+</tr>
+<tr>
+	<td style="text-align:center;">1pl</td>
+	<td style="text-align:center;">genen; gena ni; gen ni; gan ni</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2pl</td>
+	<td style="text-align:center;">genow(gh); gena hwi; gen hwi; gan hwi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3pl</td>
+	<td style="text-align:center;">gansa(ns); genans/gena i; gen i/ gan i</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="%C2%A7a.3.8heb">§A.3.8 heb</h3>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person</th>
+	<th style="text-align:center;">Preposition</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1sg</td>
+	<td style="text-align:center;">hebov/hebdham; heb vy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2sg</td>
+	<td style="text-align:center;">hebos; heb jy/sy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg masculine</td>
+	<td style="text-align:center;">hebdho; heb ev</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg feminine</td>
+	<td style="text-align:center;">hebdhi; heb hi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg neutral</td>
+	<td style="text-align:center;">hebdhom; heb hynn</td>
+</tr>
+<tr>
+	<td style="text-align:center;">1pl</td>
+	<td style="text-align:center;">hebon; heb ni</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2pl</td>
+	<td style="text-align:center;">hebow(gh); heb hwi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3pl</td>
+	<td style="text-align:center;">hebdha(ns); heb i</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="%C2%A7a.3.9orth">§A.3.9 ort(h)</h3>
+
+<p>Using <em>-t</em> or <em>-th</em> as the final consonant of this preposition is completely option</p>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person</th>
+	<th style="text-align:center;">Preposition</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1sg</td>
+	<td style="text-align:center;">orthiv/ortam; orta vy; ort(h) vy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2sg</td>
+	<td style="text-align:center;">orthis; orta jy/sy; ort(h) jy/sy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg masculine</td>
+	<td style="text-align:center;">orto; orta (v)e; ort(h) ev</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg feminine</td>
+	<td style="text-align:center;">orti; orta hi; ort(h) hi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg neutral</td>
+	<td style="text-align:center;">ortom; orta hynn; ort(h) hynn</td>
+</tr>
+<tr>
+	<td style="text-align:center;">1pl</td>
+	<td style="text-align:center;">orthyn; orta ni; ort(h) ni</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2pl</td>
+	<td style="text-align:center;">orthow(gh); orta hwi; ort(h) hwi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3pl</td>
+	<td style="text-align:center;">orta(ns); orta i; ort(h) i</td>
+</tr>
+</tbody>
+</table>
+
+<p>This conjugation can also be used for the prepositions <strong>dyworth</strong>, <strong>a-dhyworth</strong>, and <strong>dhyworth</strong>, in any of their various forms.</p>
+
+<h3 id="%C2%A7a.3.10rag">§A.3.10 rag</h3>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person</th>
+	<th style="text-align:center;">Preposition</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1sg</td>
+	<td style="text-align:center;">ragov/ragam; raga vy; rag vy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2sg</td>
+	<td style="text-align:center;">ragos; raga jy/sy; rag jy/sy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg masculine</td>
+	<td style="text-align:center;">ragdho; raga (v)e; rag ev</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg feminine</td>
+	<td style="text-align:center;">rygdhi; raga hi; rag hi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg neutral</td>
+	<td style="text-align:center;">ragdhom; raga hynn; rag hynn</td>
+</tr>
+<tr>
+	<td style="text-align:center;">1pl</td>
+	<td style="text-align:center;">ragon; raga ni; rag ni</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2pl</td>
+	<td style="text-align:center;">ragow(gh); raga hwi; rag hwi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3pl</td>
+	<td style="text-align:center;">ragdha(ns); ragans/raga i; rag i</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="%C2%A7a.3.11warsup2sup">§A.3.11 war<sup>2</sup></h3>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person</th>
+	<th style="text-align:center;">Preposition</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1sg</td>
+	<td style="text-align:center;">warnav/warnam; warna vy; wara vy; war vy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2sg</td>
+	<td style="text-align:center;">warnas; warna jy/sy; wara jy/sy; war jy/sy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg masculine</td>
+	<td style="text-align:center;">warnodho; warna (v)e; wara (v)e; war ev</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg feminine</td>
+	<td style="text-align:center;">warnedhi; warna hi; wara hi; war hi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg neutral</td>
+	<td style="text-align:center;">warnodhom; warna hynn; wara hynn; war hynn</td>
+</tr>
+<tr>
+	<td style="text-align:center;">1pl</td>
+	<td style="text-align:center;">warnan; warna ni; wara ni; war ni</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2pl</td>
+	<td style="text-align:center;">warnow(gh); warna hwi; wara hwi; war hwi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3pl</td>
+	<td style="text-align:center;">warna(ns); warna i; warans/wara i; war i</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="%C2%A7a.3.12yn">§A.3.12 yn</h3>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person</th>
+	<th style="text-align:center;">Preposition</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1sg</td>
+	<td style="text-align:center;">ynnov/ynnam; ynna vy; yn vy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2sg</td>
+	<td style="text-align:center;">ynnos; ynna jy/sy; yn jy/sy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg masculine</td>
+	<td style="text-align:center;">ynno; ynna (v)e; yn ev</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg feminine</td>
+	<td style="text-align:center;">ynni; ynna hi; yn hi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg neutral</td>
+	<td style="text-align:center;">ynnom; ynna hynn; yn hynn</td>
+</tr>
+<tr>
+	<td style="text-align:center;">1pl</td>
+	<td style="text-align:center;">ynnon; ynna ni; yn ni</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2pl</td>
+	<td style="text-align:center;">ynnow(gh); ynna hwi; yn hwi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3pl</td>
+	<td style="text-align:center;">ynna(ns); ynna i; yn i</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="%C2%A7a.4verbsandconjugation">§A.4 Verbs and conjugation</h2>
+
+<p>Colloquial Cornish specifies systems of tense which are relatively close to the literary language. Four tenses are specified: the present, preterite, imperfect, and conditional/pluperfect, and two moods: the indicative and the subjunctive, positive and negative polarity, and a dedicated form for the interrogative mood. The usage of the subjunctive is limited to only one tense, however, following conventions established in such dialects as Kernowak Standard. Verbs also inflect according to polarity (positive — negative).</p>
+
+<hr />
+
+<h3 id="%C2%A7a.4.1tense">§A.4.1 Tense</h3>
+
+<p>The four tenses in Cornish are used very regularly. The usual endings are:</p>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person</th>
+	<th style="text-align:center;">Present</th>
+	<th style="text-align:center;">Imperfect</th>
+	<th style="text-align:center;">Preterite</th>
+	<th style="text-align:center;">Conditional</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1st singular</td>
+	<td style="text-align:center;">-av / -am</td>
+	<td style="text-align:center;">-en</td>
+	<td style="text-align:center;">-is</td>
+	<td style="text-align:center;">-sen</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2nd singular</td>
+	<td style="text-align:center;">-ydh</td>
+	<td style="text-align:center;">-es</td>
+	<td style="text-align:center;">-sys</td>
+	<td style="text-align:center;">-ses</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd singular</td>
+	<td style="text-align:center;">-Ø</td>
+	<td style="text-align:center;">-a</td>
+	<td style="text-align:center;">-as</td>
+	<td style="text-align:center;">-sa</td>
+</tr>
+<tr>
+	<td style="text-align:center;">1st plural</td>
+	<td style="text-align:center;">-yn</td>
+	<td style="text-align:center;">-en</td>
+	<td style="text-align:center;">-syn</td>
+	<td style="text-align:center;">-sen</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2nd plural</td>
+	<td style="text-align:center;">-owgh</td>
+	<td style="text-align:center;">-ewgh</td>
+	<td style="text-align:center;">-sowgh</td>
+	<td style="text-align:center;">-sewgh</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd plural</td>
+	<td style="text-align:center;">-on / -onsi</td>
+	<td style="text-align:center;">-en / -ensi</td>
+	<td style="text-align:center;">-son / -sonsi</td>
+	<td style="text-align:center;">-sen / -sensi</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="%C2%A7a.4.1.1presenttense">§A.4.1.1 Present tense</h4>
+
+<ol>
+<li><strong>-av</strong> can reduce to <strong>-a</strong>, with or without a trailing apostrophe to indicate the elided <em>-v</em>. In such cases, it would be best to reduplicate a direct dependent pronoun</li>
+<li><strong>-ydh</strong> can reduce to <strong>-i</strong>, with or without a trailing apostrophe to indicate the elided <em>-dh</em>. In such cases, it would be advisable, but not necessary, to reduplicate a direct dependent pronoun</li>
+<li>The 3rd singular can, for a masculine subject, take a suffix <strong>-(a)va</strong></li>
+<li><strong>-yn</strong> can reduce to <strong>-a</strong>, with no apostrophe thereafter, and an obligatory reduplicated direct dependent pronoun.</li>
+<li><strong>-owgh</strong> may either reduce to <strong>-ow</strong>, with or without a trailing apostrophe to indicate the elided <em>-gh</em>; or it can become <strong>-a</strong> with a trailing apostrophe, an optional space, and obligatory direct dependent pronoun (thus giving <strong>-a&#8217; hwi</strong> or <strong>-a&#8217;hwi</strong>)</li>
+<li><strong>-on</strong> is a form best taken so as not to include the pronoun after the verbal ending. Both the vowels in this ending can reduce to <strong>-a-</strong> when the endings are unstressed</li>
+</ol>
+
+<h4 id="%C2%A7a.4.1.2imperfecttense">§A.4.1.2 Imperfect tense</h4>
+
+<ol>
+<li>The vowel <strong>-e-</strong> in all of these endings can reduce to <strong>-a-</strong> in an unstressed position</li>
+<li>It is best practice not to reduce these endings, so as not to cause excessive confusion with the present, but they can be reduced following the rules of the present if so desired</li>
+</ol>
+
+<h4 id="%C2%A7a.4.1.3preteritetense">§A.4.1.3 Preterite tense</h4>
+
+<ol>
+<li><strong>-is</strong> can reduce to <strong>-ys</strong></li>
+<li><strong>-as</strong> replaces all instances of <strong>-is</strong> in the 3rd person singular in the literary language; this is consistent with features present in some registers of the literary language</li>
+<li><strong>-sowgh</strong> can reduce to <strong>-sow</strong>, with or without a trailing apostrophe to indicate the elision of <em>-gh</em></li>
+<li><strong>-syn</strong> and <strong>-sowgh</strong> can both reduce to <strong>-sa</strong>, with their respective direct dependent pronouns obligatorily reduplicated</li>
+</ol>
+
+<h4 id="%C2%A7a.4.1.4conditionalpluperfecttense">§A.4.1.4 Conditional/pluperfect tense</h4>
+
+<ol>
+<li>The vowel <strong>-e-</strong> in all of these endings can reduce to <strong>-a-</strong> in an unstressed position</li>
+<li>It is best practice not to reduce these endings, so as not to cause excessive confusion with the preterite, but they can be reduced following the rules of the preterite and present (as applicable) if so desired</li>
+</ol>
+
+<hr />
+
+<h3 id="%C2%A7a.4.2subjunctivemood">§A.4.2 Subjunctive mood</h3>
+
+<p>The endings above correspond to the <strong>indicative</strong> mood. Below is the table for the <strong>subjunctive</strong>:</p>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person</th>
+	<th style="text-align:center;">Subjunctive</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1st singular</td>
+	<td style="text-align:center;">-en</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2nd singular</td>
+	<td style="text-align:center;">-es</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd singular</td>
+	<td style="text-align:center;">-a</td>
+</tr>
+<tr>
+	<td style="text-align:center;">1st plural</td>
+	<td style="text-align:center;">-en</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2nd plural</td>
+	<td style="text-align:center;">-ewgh</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3rd plural</td>
+	<td style="text-align:center;">-en / -ensi</td>
+</tr>
+</tbody>
+</table>
+
+<p>These correspond exactly to the endings of the imperfect tense, which reflects the fact that these endings are meant to represent the original <em>imperfect subjunctive</em> of the literary language, which is the only subjunctive present in even some forms of the literary language.<br/>
+The difference in the two moods is the fact that the ablaut in the final consonant of the verb&#8217;s stem, as can be found in the literary language, is also present here too.</p>
+
+<hr />
+
+<h3 id="%C2%A7a.4.3colloquialcornishandverbalparticles">§A.4.3 Colloquial Cornish and verbal particles</h3>
+
+<p>Literary Cornish possesses two very important verbal particles: <strong>y<sup>5</sup></strong> and <strong>a<sup>2</sup></strong>. These are used to indicate the precise nature and position of a verb within a sentence. Colloquial Cornish follows attested behaviours of certain Literary varieties, and extends these, so that neither of these particles is used in the majority of situations. However, verbs will retain the mutations caused by these particles, thereby helping at least in part to disambiguate the situations in which these verbs occur.<br/>
+Cornish verbs occur within two major types of environment: the verbal and the nominal. Verbal environments are head-initial, whereas nominal environments are not; therefore verbal environments will usually begin with a verbal particle and a verb; nominal environments will usually begin with either the subject or the object of the verb.<br/>
+*** </p>
+
+<h3 id="%C2%A7a.4.4indicativeverbs">§A.4.4 Indicative verbs</h3>
+
+<p>Indicative verbs are marked with <strong>y<sup>5</sup></strong> in verbal environments, and <strong>a<sup>2</sup></strong>.</p>
+
+<h4 id="%C2%A7a.4.3.1indicativeverbsinverbalenvironments">§A.4.3.1 Indicative verbs in verbal environments</h4>
+
+<p>Being preceded by <strong>y<sup>5</sup></strong> in the literary language, indicative verbs in verbal environments are marked with a dangling 5th (mixed) mutation preceding the verb, e.g.</p>
+
+<blockquote>
+<p>Lit. <strong>dalleth</strong> &gt; Coll. <strong>dalla</strong><br/>
+infinitive <strong>dalla</strong> &gt; 3rd person singular present <strong>dalla</strong> &gt; <strong><sup>5</sup>talla</strong><br/>
+<sup>5</sup>Talla&#8217;n hwarvos dh&#8217;eth eur<br/>
+<em>&#8220;The event starts at eight o&#8217;clock&#8221;</em></p>
+</blockquote>
+
+<h4 id="%C2%A7a.4.3.2indicativeverbsinnominalenvironments">§A.4.3.2 Indicative verbs in nominal environments</h4>
+
+<p>Being preceded by <strong>a<sup>2</sup></strong> in the literary language, indicative verbs in nominal environments are marked with a dangling 2nd (soft) mutation preceding the verb, e.g.</p>
+
+<blockquote>
+<p>Lit. <strong>gweles</strong> &gt; Coll. <strong>gweles</strong><br/>
+infinitive <strong>gweles</strong> &gt; 3rd person singular present <strong>gwel</strong> &gt; <strong><sup>2</sup>wel</strong><br/>
+Ma <sup>2</sup>wel an den — My <sup>2</sup>wel an den<br/>
+<em>&#8220;I see the person&#8221;</em></p>
+</blockquote>
+
+<hr />
+
+<h3 id="%C2%A7a.4.5interrogativeverbs">§A.4.5 Interrogative verbs</h3>
+
+<p>Verbs can be specially inflected to indicate the verb being posed as a question, rather than a statement. Interrogative verbs are usually found in verbal environments, meaning they usually start phrases or sentences. They are usually preceded in the literary language by the particle <strong>a<sup>2</sup></strong>, so they are marked here with a dangling 2nd (soft) mutation preceding the verb, e.g.</p>
+
+<blockquote>
+<p>Lit. <strong>gweles</strong> &gt; Coll. <strong>gweles</strong><br/>
+infinitive <strong>gweles</strong> &gt; 2nd person singular present <strong>gweli</strong> &gt; <strong><sup>2</sup>weli</strong><br/>
+<sup>2</sup>Weli&#8217;n den?<br/>
+<em>Do you see the person?</em></p>
+</blockquote>
+
+<hr />
+
+<h3 id="%C2%A7a.4.6negativeverbs">§A.4.6 Negative verbs</h3>
+
+<p>Verbs are inflected with the negative particle <strong>na<sup>2</sup></strong>, which shortens to <strong>n&#8217;</strong> before verbs beginning with a vowel. Parts of <em>bos</em> and <em>mos</em> that begin with a vowel take the particle <strong>nag</strong> instead.</p>
+
+<h3 id="%C2%A7a.4.7interrogative-negativeverbs">§A.4.7 Interrogative-negative verbs</h3>
+
+<p>These verbs translate as a negative within a question, as in e.g. &#8220;Do you not eat?&#8221;<br/>
+This is achieved by using the negative particle described above and ending the question with a question mark in writing, or with questioning intonation in speech;<br/>
+Alternatively, speakers may use the particle <strong>ny<sup>2</sup></strong> appropriated from the construction <strong>a ny<sup>2</sup>&#8230;?</strong> in the literary language. This particle becomes <strong>nyns</strong> before parts of <em>bos</em> and <em>mos</em> that begin with a vowel. Therefore, the interrogative example in §A.4.5 above may be rephrased into an interrogative negative as:</p>
+
+<blockquote>
+<p>Na weli&#8217;n den?<br/>
+Ny weli&#8217;n den?<br/>
+<em>&#8220;Do you not see the man?&#8221;</em></p>
+</blockquote>
+
+<h1 id="sectionb%3Anewandexperimentalforms">Section B: New and experimental forms</h1>
+
+<p>hwer my dhe [verb] — i usually&#8230;<br/>
+hwer dhe vy [verb] — same but passive sense</p>
+
+<h2 id="%C2%A7b.1consonantmutations">§B.1 Consonant mutations</h2>
+
+<h3 id="%C2%A7b.1.1alternativenotation">§B.1.1 Alternative notation</h3>
+
+<p>Because of sentiments from learners of the language regarding the difficulty in discerning between similarly-formed mutations of vastly different letters, a system of notating mutations in an alternative fashion is being proposed here. It is complex, and potentially even impractical for many, however it may find good use by some in an educational context, which I personally also believe is the best application for it. Another drawback is that it requires theuse of a custom keyboard layout, though several have been produced already; one a native macOS keyboard layout and another a downloadable layout for Keyman Desktop, which is available on all major operating systems.<br/>
+All of these are formed by using the overdot&nbsp;(̇ )&nbsp;symbol. It is for this reason that a custom keyboard is necessary, but one can easily be provided, as mentioned.</p>
+
+<h4 id="%C2%A7b.1.1.1lenition">§B.1.1.1 Lenition</h4>
+
+<p>This is the simplest notation, in which words are written with their radicals, with an overdot written above the radical. This results in the following:</p>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Radical</th>
+	<th style="text-align:center;">Lenited variant</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">b</td>
+	<td style="text-align:center;">ḃ</td>
+</tr>
+<tr>
+	<td style="text-align:center;">ch</td>
+	<td style="text-align:center;">ċh</td>
+</tr>
+<tr>
+	<td style="text-align:center;">d</td>
+	<td style="text-align:center;">ḋ</td>
+</tr>
+<tr>
+	<td style="text-align:center;">g</td>
+	<td style="text-align:center;">ġ</td>
+</tr>
+<tr>
+	<td style="text-align:center;">k</td>
+	<td style="text-align:center;">k̇</td>
+</tr>
+<tr>
+	<td style="text-align:center;">m</td>
+	<td style="text-align:center;">ṁ</td>
+</tr>
+<tr>
+	<td style="text-align:center;">p</td>
+	<td style="text-align:center;">ṗ</td>
+</tr>
+<tr>
+	<td style="text-align:center;">t</td>
+	<td style="text-align:center;">ṫ</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><em>f</em></td>
+	<td style="text-align:center;"><em>ḟ</em></td>
+</tr>
+<tr>
+	<td style="text-align:center;"><em>s</em></td>
+	<td style="text-align:center;"><em>ṡ</em></td>
+</tr>
+</tbody>
+</table>
+
+<p>Note carefully that in the case of <em>ch-</em> the overdot is written above <em>c</em>, so as to avoid confusion with the notation of the following mutation, spirantisation.</p>
+
+<h4 id="%C2%A7b.1.1.2spirantisation">§B.1.1.2 Spirantisation</h4>
+
+<p>This notation is quite simple as well, and mostly involves the letter <em>ḣ</em> (<em>h</em> with overdot.)</p>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Radical</th>
+	<th style="text-align:center;">Spirantised variant</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">k</td>
+	<td style="text-align:center;">kḣ</td>
+</tr>
+<tr>
+	<td style="text-align:center;">p</td>
+	<td style="text-align:center;">pḣ</td>
+</tr>
+<tr>
+	<td style="text-align:center;">t</td>
+	<td style="text-align:center;">tḣ</td>
+</tr>
+</tbody>
+</table>
+
+<p>This only involves the use of the modified letter <em>ḣ</em> after the relevant radical. The notation above has been suggested because it is the simplest in terms of its production, though please experiment and make improvements on it!</p>
+
+<h4 id="%C2%A7b.1.1.3provectionandmixedmutation">§B.1.1.3 Provection and mixed mutation</h4>
+
+<p>This and mixed mutation are notated in a somewhat more complex manner. They involve placing the overdot on the initial letter of the sound in question, and writing the mutated letter thereafter:</p>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Radical</th>
+	<th style="text-align:center;">Provection</th>
+	<th style="text-align:center;">Mixed</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">b-</td>
+	<td style="text-align:center;">ḃp-</td>
+	<td style="text-align:center;">ḃv-; ḃf- only in isolation</td>
+</tr>
+<tr>
+	<td style="text-align:center;">ch-</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">—</td>
+</tr>
+<tr>
+	<td style="text-align:center;">d-</td>
+	<td style="text-align:center;">ḋt-</td>
+	<td style="text-align:center;">ḋt-</td>
+</tr>
+<tr>
+	<td style="text-align:center;">ga-</td>
+	<td style="text-align:center;">ġk-</td>
+	<td style="text-align:center;">Ø-; ġha- only in isolation</td>
+</tr>
+<tr>
+	<td style="text-align:center;">ge-</td>
+	<td style="text-align:center;">ġke-</td>
+	<td style="text-align:center;">Ø-; ġhe- only in isolation</td>
+</tr>
+<tr>
+	<td style="text-align:center;">gi-</td>
+	<td style="text-align:center;">ġki-</td>
+	<td style="text-align:center;">Ø-; ġhi- only in isolation</td>
+</tr>
+<tr>
+	<td style="text-align:center;">gy-</td>
+	<td style="text-align:center;">ġky-</td>
+	<td style="text-align:center;">Ø-; ġhy- only in isolation</td>
+</tr>
+<tr>
+	<td style="text-align:center;">go-</td>
+	<td style="text-align:center;">ġko-</td>
+	<td style="text-align:center;">ġwo-; ġho- only in isolation</td>
+</tr>
+<tr>
+	<td style="text-align:center;">gu-</td>
+	<td style="text-align:center;">ġku-</td>
+	<td style="text-align:center;">ġwu-; ġhu- only in isolation</td>
+</tr>
+<tr>
+	<td style="text-align:center;">gro-</td>
+	<td style="text-align:center;">ġkro-</td>
+	<td style="text-align:center;">ġwro-</td>
+</tr>
+<tr>
+	<td style="text-align:center;">gru-</td>
+	<td style="text-align:center;">ġkru-</td>
+	<td style="text-align:center;">ġwru-</td>
+</tr>
+<tr>
+	<td style="text-align:center;">k-</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">—</td>
+</tr>
+<tr>
+	<td style="text-align:center;">m-</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">ṁv-; ṁf- only in isolation</td>
+</tr>
+<tr>
+	<td style="text-align:center;">p-</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">—</td>
+</tr>
+<tr>
+	<td style="text-align:center;">t-</td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">—</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><em>f-</em><sup>2</sup></td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">—</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><em>s-</em><sup>2</sup></td>
+	<td style="text-align:center;">—</td>
+	<td style="text-align:center;">—</td>
+</tr>
+</tbody>
+</table>
+
+<p>Although these may seem unwieldy to some users, the central tenet of this primer must be mentioned again: <em>experiment!</em> If there is a notation which seems to be more practical and clear, please make the suggestion! The central qualities of the decisions made and presented thus far in this primer have been consistency, practicality and clarity, so keep this in mind for yourselves too.</p>
+
+<h2 id="%C2%A7b.3prepositions">§B.3 Prepositions</h2>
+
+<h3 id="%C2%A7b.3.1am">§B.3.1 am</h3>
+
+<p>This preposition does not already exist independently in Cornish, though it does in Welsh. However, the element which is the exact same source for the Welsh preposition <em>am</em> does, in fact, exist in Cornish too, as the prefix <em>am-</em> in the word <em>ambos</em>. This is the basis for the decision to introduce this preposition, with an equivalent meaning of &#8220;about&#8221;, &#8220;concerning&#8221;, &#8220;around&#8221;, all in a metaphorical sense. Since there is no basis in Cornish to introduce conjugations, however, this primer will not do so, but keen users might wish to attempt it!</p>
+
+<h3 id="%C2%A7b.3.2orth">§B.3.2 orth</h3>
+
+<p><strong>Orth</strong> may vary majorly to <strong>at</strong> in all positions, and may be conjugated as below:</p>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Person</th>
+	<th style="text-align:center;">Preposition</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">1sg</td>
+	<td style="text-align:center;">ativ/atam; ata vy; at vy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2sg</td>
+	<td style="text-align:center;">atis; ata jy/sy; at jy/sy</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg masculine</td>
+	<td style="text-align:center;">ato; ata (v)e; at ev</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg feminine</td>
+	<td style="text-align:center;">ati; ata hi; at hi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3sg neutral</td>
+	<td style="text-align:center;">atom; ata hynn; at hynn</td>
+</tr>
+<tr>
+	<td style="text-align:center;">1pl</td>
+	<td style="text-align:center;">atyn; ata ni; at ni</td>
+</tr>
+<tr>
+	<td style="text-align:center;">2pl</td>
+	<td style="text-align:center;">atow(gh); ata hwi; at hwi</td>
+</tr>
+<tr>
+	<td style="text-align:center;">3pl</td>
+	<td style="text-align:center;">ata(ns); ata i; at i</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="%C2%A7b.3.3war">§B.3.3 war</h3>
+
+<p><strong>War</strong> may vary majorly to <strong>oar</strong> in all positions, but is conjugated exactly the same as war.</p>
+
+<h3 id="%C2%A7b.3.4yn">§B.3.4 yn</h3>
+
+<p><strong>Yn</strong> may vary majorly to <strong>et</strong> before all vowels as opposed to only some, and will only be used as such in its unconjugated form.</p>
+
+<h1 id="sectionc%3Aorthography">Section C: Orthography</h1>
+<!-- ##END MARKED WRAPPER## -->
+    </div>
+</body>
+</html>
