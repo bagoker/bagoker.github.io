@@ -387,7 +387,7 @@ The literary form of this preposition is **gans**.
 
 ### §A.3.9 ort(h)
 
-Using *-t* or *-th* as the final consonant of this preposition is completely option
+Using *-t* or *-th* as the final consonant of this preposition is completely optional.
 
 |    Person     |           Preposition            |
 |:-------------:|:--------------------------------:|
