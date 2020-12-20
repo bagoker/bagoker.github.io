@@ -1,11 +1,12 @@
-# <a id="primer"></a> A Primer of Colloquial Cornish
+<head>
+	<link ref='/fonts/css/all.css' rel='stylesheet'>
+</head>
 
+# <a id="primer"></a> A Primer of Colloquial Cornish
 # Table of Contents
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [<a id="primer"></a> A Primer of Colloquial Cornish](#a-idprimera-a-primer-of-colloquial-cornish)
-- [Table of Contents](#table-of-contents)
-- [An introduction to Colloquial Cornish [(TOC)](#table-of-contents)](#an-introduction-to-colloquial-cornish-toctable-of-contents)
+- [An introduction to Colloquial Cornish](#an-introduction-to-colloquial-cornish)
 - [Section A: Descriptions; close experimentation with features existent in colloquial form](#section-a-descriptions-close-experimentation-with-features-existent-in-colloquial-form)
 	- [§A.1 Consonant mutations](#a1-consonant-mutations)
 		- [§A.1.1 Table of mutations](#a11-table-of-mutations)
